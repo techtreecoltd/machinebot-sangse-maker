@@ -1,10 +1,12 @@
 {
   "name": "machinebot-ecommerce-studio",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "제품 사실을 바탕으로 최적의 커머스 제작 분기를 제안하고 선택한 판매 이미지를 생성·검수합니다.",
   "author": {
     "name": "김머신"
   },
+  "homepage": "https://github.com/techtreecoltd/machinebot-sangse-maker",
+  "repository": "https://github.com/techtreecoltd/machinebot-sangse-maker",
   "keywords": [
     "ecommerce",
     "product-image",
@@ -15,7 +17,7 @@
   "interface": {
     "displayName": "김머신 이커머스 상세페이지 스튜디오",
     "shortDescription": "제품별 제작 분기를 제안하고 이미지 결과물까지 완성",
-    "longDescription": "제품 사진과 검증된 사실을 분석해 메인·서브 썸네일, 누끼컷, 연출·실사용컷, 효용 시각화컷, 6~10장 상세페이지 또는 전체 패키지를 제안하고, 선택한 결과물을 하나의 시각 시스템으로 제작·검수합니다.",
+    "longDescription": "제품 사진과 검증된 사실을 분석해 메인·서브 썸네일, 누끼컷, 연출·실사용컷, 효용 시각화컷, 6~10장 상세페이지 또는 전체 패키지를 제안하고, 제품·장면·카피를 자산별 한 번의 이미지 생성 호출로 제작·검수합니다.",
     "developerName": "김머신",
     "category": "Productivity",
     "capabilities": [

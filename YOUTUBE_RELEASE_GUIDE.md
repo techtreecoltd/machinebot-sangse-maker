@@ -2,7 +2,7 @@
 
 ## 공유할 파일
 
-최종 배포 파일은 `dist/machinebot-ecommerce-studio-1.7.0.zip`이다. 압축을 풀면 독립 사용 안내 `README.md`, `.codex-plugin/plugin.json`, `assets/`, `skills/machinebot-ecommerce-studio/`가 들어 있는 스킬 전용 플러그인 폴더가 나온다.
+최종 배포 파일은 `dist/machinebot-ecommerce-studio-1.8.0.zip`이다. 압축을 풀면 독립 사용 안내 `README.md`, `.codex-plugin/plugin.json`, `assets/`, `skills/machinebot-ecommerce-studio/`가 들어 있는 스킬 전용 플러그인 폴더가 나온다.
 
 프로젝트의 가치, 지원 범위, 작동 흐름을 먼저 소개하려면 루트 `README.md`를 사용한다. 영상 설명란에는 저장소 링크와 함께 현재 버전 ZIP이 로컬 검수·공유용이라는 점을 적는다.
 
@@ -10,10 +10,9 @@
 
 - GitHub·플러그인 소개 대표 이미지: `plugins/machinebot-ecommerce-studio/assets/machinebot-title-imagegen.png`
 - YouTube 영상 커버: `plugins/machinebot-ecommerce-studio/assets/machinebot-youtube-imagegen.png`
-- 이미지 생성기가 만든 재사용 가능한 투명 타이포그래피 레이어: `plugins/machinebot-ecommerce-studio/assets/machinebot-service-lockup-imagegen.png`
 - 김머신 GPT에서 추출한 정체성 기준 원본: `plugins/machinebot-ecommerce-studio/assets/machinebot-avatar-original.png`
 
-타이틀 문구는 `MACHINEBOT`과 `ECOMMERCE VISUAL STUDIO` 두 줄만 사용한다. 호스트 이미지 생성기가 만든 투명 픽셀 워드마크에서 작은 노이즈 픽셀만 정리한 뒤 김머신 이미지 생성 베이스와 합성했다. YouTube 커버는 이 첫 번째 README 시안을 그대로 유지해 1280 × 720px로 맞췄다. HTML·SVG·시스템 폰트로 새 글자를 얹지 않았다.
+타이틀 문구는 `MACHINEBOT`과 `ECOMMERCE VISUAL STUDIO` 두 줄만 사용한다. 새 타이틀이나 커버는 캐릭터·배경·픽셀 워드마크 전체를 호스트 이미지 생성기의 한 번의 호출로 만들며, 투명 타이포그래피 PNG나 HTML·CSS·SVG·캔버스·시스템 폰트 합성을 사용하지 않는다. 기존 파일은 과거 공개 시안의 최종 평탄화 자산으로만 보존하고 분리된 글자 자산을 새 제작에 재사용하지 않는다.
 
 ## ChatGPT Work에서 보여줄 흐름
 
@@ -22,7 +21,7 @@
 3. 제품 사진과 기본 정보를 올린다.
 4. 스킬이 추천하는 커머스 제작 분기 중 하나를 선택한다.
 5. 상세페이지나 전체 패키지는 패널 구성안을 승인한다.
-6. 이미지 생성 단계에서 완성된 한국어 카피와 제품 정체성을 확인한다.
+6. 패널별 한 번의 이미지 생성 호출로 완성된 한국어 카피와 제품 정체성을 확인한다.
 
 중국어·일본어 등 외국어 상세페이지 ZIP을 데모할 때는 원본 이미지를 최종 배경으로 재사용하지 않는다. 제품과 기능 구조를 추출한 뒤, 호스트 이미지 생성 기능으로 원문을 제거하고 한국어 카피까지 직접 렌더링하는 흐름을 보여준다.
 

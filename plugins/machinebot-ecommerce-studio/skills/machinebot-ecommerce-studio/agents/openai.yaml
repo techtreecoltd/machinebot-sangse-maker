@@ -4,6 +4,6 @@ interface:
   icon_small: "./assets/machinebot-avatar.png"
   icon_large: "./assets/machinebot-avatar.png"
   brand_color: "#111827"
-  default_prompt: "Use $machinebot-ecommerce-studio to analyze my product or foreign-language source detail page, then create Korean commerce images with native image-generated Korean text."
+  default_prompt: "Use $machinebot-ecommerce-studio to analyze my product or foreign-language source page, then render each complete commerce image and its final copy in one image-generation call."
 policy:
   allow_implicit_invocation: true

@@ -48,7 +48,8 @@ $machinebot-ecommerce-studio 이 제품의 8장 상세페이지를 만들어 줘
 - 제품 정체성이 중요한 경우 신규 생성보다 참조 이미지 편집을 우선합니다.
 - 기본 상품컷은 중성 흰색 스튜디오, 정확한 화이트 밸런스와 깨끗한 그림자를 사용합니다.
 - 중국어·일본어 등 외국어 상세페이지는 원문의 제품·기능 구조만 추출하고, 이미지 생성 단계에서 원문 제거와 한국어 카피 렌더링을 함께 처리합니다.
-- 외국어 현지화 분기에서는 HTML·SVG·캔버스·코드 폰트로 한국어를 덮어쓰지 않습니다.
+- 모든 언어에서 제품·배경·효과·확정 카피를 패널별 한 번의 이미지 생성 또는 편집 호출로 완성합니다.
+- 텍스트 없는 베이스, 투명 타이포그래피 PNG, 텍스트 패치, HTML·CSS·SVG·캔버스·시스템 폰트 합성을 사용하지 않습니다.
 - 생성한 결과를 직접 확인하지 못하면 검수 완료라고 말하지 않습니다.
 
 ## 패키지 구조
@@ -58,7 +59,6 @@ machinebot-ecommerce-studio/
 ├─ .codex-plugin/plugin.json
 ├─ assets/
 │  ├─ machinebot-avatar-original.png
-│  ├─ machinebot-service-lockup-imagegen.png
 │  ├─ machinebot-title-imagegen.png
 │  └─ machinebot-youtube-imagegen.png
 ├─ README.md
