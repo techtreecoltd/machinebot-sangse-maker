@@ -1,0 +1,12 @@
+# Generated validation snapshots and branding drafts
+validation/package-check*/
+validation/branding-workbench/
+
+# Keep only the current distributable package in Git
+dist/*.zip
+!dist/machinebot-ecommerce-studio-1.6.0.zip
+
+# Local/editor noise
+.DS_Store
+Thumbs.db
+*.tmp

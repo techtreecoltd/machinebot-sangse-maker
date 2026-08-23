@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Machinebot Ecommerce Studio">
+  <rect width="512" height="512" rx="112" fill="#111827"/>
+  <rect x="98" y="84" width="316" height="344" rx="34" fill="#FFFFFF"/>
+  <rect x="126" y="116" width="260" height="94" rx="20" fill="#E5E7EB"/>
+  <circle cx="202" cy="163" r="34" fill="#111827"/>
+  <path d="M184 178v-30l18 16 18-16v30" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="126" y="238" width="260" height="22" rx="11" fill="#111827"/>
+  <rect x="126" y="282" width="204" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="126" y="318" width="234" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="126" y="354" width="178" height="16" rx="8" fill="#9CA3AF"/>
+</svg>

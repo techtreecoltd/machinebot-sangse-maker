@@ -1,0 +1,9 @@
+interface:
+  display_name: "김머신 이커머스 상세페이지 스튜디오"
+  short_description: "제품별 제작 분기를 제안하고 이미지 결과물까지 완성"
+  icon_small: "./assets/machinebot-avatar.png"
+  icon_large: "./assets/machinebot-avatar.png"
+  brand_color: "#111827"
+  default_prompt: "Use $machinebot-ecommerce-studio to analyze my product, recommend the best commerce image branches, and create the selected images."
+policy:
+  allow_implicit_invocation: true
