@@ -15,7 +15,7 @@
 | 어떤 이미지부터 만들어야 할지 모른다 | 제품 상황에 맞는 분기 2~3개와 전체 패키지를 이유와 함께 제안합니다. |
 | 컷마다 제품 모양과 브랜드가 달라진다 | 마스터 제품 컷과 하나의 시각 시스템을 먼저 고정합니다. |
 | 이미지 생성 중 과장 문구가 끼어든다 | 사실·확인 필요·연출 선택을 분리하고 근거 없는 효능·수치·인증을 차단합니다. |
-| 한국어 카피가 깨지거나 상세 흐름이 약하다 | 이미지 베이스와 정확한 카피 합성을 분리하고 6·8·10장 설득 구조를 적용합니다. |
+| 중국어 상세페이지를 그대로 덮어써 외계 문자가 남는다 | 원문에서 제품·기능 구조만 추출하고, 이미지 생성 단계에서 중국어 제거와 한국어 렌더링을 함께 수행합니다. |
 | 결과물은 많지만 실제 판매 페이지에 쓰기 어렵다 | 용도·수량·비율·품질 게이트가 정해진 커머스 산출물 세트로 전달합니다. |
 
 ## 만들 수 있는 것
@@ -38,11 +38,11 @@ flowchart LR
     A[제품 사진·정보] --> B[사실·확인·연출 분리]
     B --> C[최적 분기 2~3개 추천]
     C --> D[사용자 선택·구성 승인]
-    D --> E[이미지 생성·한국어 카피 합성]
+    D --> E[이미지 생성·한국어 직접 렌더링]
     E --> F[커머스 품질 검수·전달]
 ```
 
-1. 사용자의 시작 상태를 `탐색`, `분기 지정`, `수정`으로 판별합니다.
+1. 사용자의 시작 상태를 `탐색`, `분기 지정`, `수정`, `외국어 원본 현지화`로 판별합니다.
 2. 이미 받은 내용은 다시 묻지 않고 실제로 부족한 제품 자료만 요청합니다.
 3. 탐색 요청에는 적합한 분기만 압축해 제안합니다.
 4. 상세페이지와 전체 패키지는 패널 구성안을 한 번 승인받습니다.
@@ -76,14 +76,14 @@ $machinebot-ecommerce-studio 이 제품의 누끼, 썸네일, 연출컷,
 
 > **현재 배포 상태**
 >
-> [`dist/machinebot-ecommerce-studio-1.6.1.zip`](./dist/machinebot-ecommerce-studio-1.6.1.zip)은 소스 검수와 로컬 설치 테스트, 영상 공유를 위한 배포본입니다. ChatGPT Work의 공개 플러그인 목록에 노출하려면 별도의 universal plugin directory 제출과 승인이 필요합니다.
+> [`dist/machinebot-ecommerce-studio-1.7.0.zip`](./dist/machinebot-ecommerce-studio-1.7.0.zip)은 소스 검수와 로컬 설치 테스트, 영상 공유를 위한 배포본입니다. ChatGPT Work의 공개 플러그인 목록에 노출하려면 별도의 universal plugin directory 제출과 승인이 필요합니다.
 
 ## 설계 원칙
 
 - **제품이 기준입니다.** 사용자 제품 사진, 로고, 패키지 문구와 사실 정보를 원본으로 취급합니다.
 - **주장을 발명하지 않습니다.** 효능, 인증, 수치, 원산지, 순위, 리뷰와 비교 우위를 추측하지 않습니다.
 - **생성보다 정체성을 우선합니다.** 제품이 중요한 작업은 새로 상상하기보다 참조 편집을 우선합니다.
-- **정확한 한국어는 분리 합성합니다.** 생성 이미지에 긴 문구를 맡기기보다 텍스트 없는 베이스에 정확한 카피를 합성합니다.
+- **외국어 원본은 이미지 생성으로 현지화합니다.** 중국어 상세페이지를 배경처럼 재사용하거나 한국어로 덮지 않고, 제품·기능 구조만 참조해 원문 제거와 한국어 카피를 생성 단계에서 함께 처리합니다.
 - **커머스 밖으로 확장하지 않습니다.** 포스터, 캐릭터, 게임, UI, 순수 일러스트는 이 스킬의 범위가 아닙니다.
 - **보지 않은 결과를 검수했다고 말하지 않습니다.** 실제 이미지를 열어 확인할 수 없으면 그 제한을 명시합니다.
 
@@ -115,6 +115,7 @@ $machinebot-ecommerce-studio 이 제품의 누끼, 썸네일, 연출컷,
 - 제작 분기와 수량: [`branches.md`](./plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/branches.md)
 - 6·8·10장 상세 구성: [`detail-page-blueprint.md`](./plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/detail-page-blueprint.md)
 - 참조 이미지와 생성 절차: [`image-production.md`](./plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/image-production.md)
+- 외국어 상세페이지 현지화: [`source-detail-localization.md`](./plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/source-detail-localization.md)
 - 최종 검수: [`quality-gates.md`](./plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/quality-gates.md)
 - 설계 근거와 범위 결정: [`validation/design-notes.md`](./validation/design-notes.md)
 - 대표 행동 시나리오: [`validation/behavior-evaluation.md`](./validation/behavior-evaluation.md)

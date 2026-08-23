@@ -2,7 +2,7 @@
 
 ## 공유할 파일
 
-최종 배포 파일은 `dist/machinebot-ecommerce-studio-1.6.1.zip`이다. 압축을 풀면 독립 사용 안내 `README.md`, `.codex-plugin/plugin.json`, `assets/`, `skills/machinebot-ecommerce-studio/`가 들어 있는 스킬 전용 플러그인 폴더가 나온다.
+최종 배포 파일은 `dist/machinebot-ecommerce-studio-1.7.0.zip`이다. 압축을 풀면 독립 사용 안내 `README.md`, `.codex-plugin/plugin.json`, `assets/`, `skills/machinebot-ecommerce-studio/`가 들어 있는 스킬 전용 플러그인 폴더가 나온다.
 
 프로젝트의 가치, 지원 범위, 작동 흐름을 먼저 소개하려면 루트 `README.md`를 사용한다. 영상 설명란에는 저장소 링크와 함께 현재 버전 ZIP이 로컬 검수·공유용이라는 점을 적는다.
 
@@ -22,7 +22,9 @@
 3. 제품 사진과 기본 정보를 올린다.
 4. 스킬이 추천하는 커머스 제작 분기 중 하나를 선택한다.
 5. 상세페이지나 전체 패키지는 패널 구성안을 승인한다.
-6. 이미지 생성과 한국어 카피 합성 결과를 확인한다.
+6. 이미지 생성 단계에서 완성된 한국어 카피와 제품 정체성을 확인한다.
+
+중국어·일본어 등 외국어 상세페이지 ZIP을 데모할 때는 원본 이미지를 최종 배경으로 재사용하지 않는다. 제품과 기능 구조를 추출한 뒤, 호스트 이미지 생성 기능으로 원문을 제거하고 한국어 카피까지 직접 렌더링하는 흐름을 보여준다.
 
 ## 영상 데모 프롬프트
 

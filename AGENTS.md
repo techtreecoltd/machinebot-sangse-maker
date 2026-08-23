@@ -45,7 +45,8 @@
 - 상세페이지와 전체 패키지는 구성안을 한 번 승인받고 생성한다.
 - 상세페이지는 6·8·10장 중 하나이며, 패널당 기본 1080 × 2160px, 최소 세로 2000px, 마지막 패널 FAQ를 유지한다.
 - 제품 정체성이 중요하면 신규 생성보다 사용자 제품 사진 기반 편집을 우선한다.
-- 긴 한국어 카피는 텍스트 없는 이미지 베이스와 결정적 합성을 분리한다.
+- 외국어 상세페이지를 한국형 상세페이지로 재제작할 때는 원문의 제품·구조만 추출하고, 호스트 이미지 생성 단계에서 원문 제거와 한국어 카피 렌더링을 함께 수행한다.
+- 위 외국어 재제작 분기에서는 HTML·SVG·캔버스·코드 폰트로 한국어를 덮어쓰지 않는다. 결정적 도구는 리사이즈·파일명·연결·압축처럼 글자를 새로 그리지 않는 후처리에만 사용한다.
 - 결과 이미지를 직접 확인하지 못했다면 완성 또는 검수 완료라고 말하지 않는다.
 - 호스트 이미지 생성 기능이 없으면 실제 생성 사실을 주장하지 않는다.
 
@@ -57,6 +58,7 @@
 | 분기·수량 | `branches.md`, `README.md`, 플러그인 `README.md` |
 | 상세페이지 규격 | `detail-page-blueprint.md`, `image-production.md`, `quality-gates.md`, 행동 검증 |
 | 이미지 제작 방법 | `image-production.md`, `quality-gates.md`, `SKILL.md` |
+| 외국어 상세페이지 현지화 | `source-detail-localization.md`, `image-production.md`, `quality-gates.md`, `SKILL.md`, 행동 검증 |
 | 브랜드·타이틀 이미지 | 플러그인 `assets/`, 두 README, `YOUTUBE_RELEASE_GUIDE.md`, `plugin.json`, `agents/openai.yaml` |
 | 표시 이름·설명·버전 | `.codex-plugin/plugin.json`, 두 README, `CHANGELOG.md`, 배포 ZIP |
 | 공개 데모·영상 | `YOUTUBE_RELEASE_GUIDE.md`, 배포 ZIP |
