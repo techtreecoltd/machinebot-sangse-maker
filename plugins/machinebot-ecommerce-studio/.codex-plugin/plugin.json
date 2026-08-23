@@ -1,6 +1,6 @@
 {
   "name": "machinebot-ecommerce-studio",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "제품 사실을 바탕으로 최적의 커머스 제작 분기를 제안하고 선택한 판매 이미지를 생성·검수합니다.",
   "author": {
     "name": "김머신"

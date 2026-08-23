@@ -76,7 +76,7 @@ $machinebot-ecommerce-studio 이 제품의 누끼, 썸네일, 연출컷,
 
 > **현재 배포 상태**
 >
-> [`dist/machinebot-ecommerce-studio-1.6.0.zip`](./dist/machinebot-ecommerce-studio-1.6.0.zip)은 소스 검수와 로컬 설치 테스트, 영상 공유를 위한 배포본입니다. ChatGPT Work의 공개 플러그인 목록에 노출하려면 별도의 universal plugin directory 제출과 승인이 필요합니다.
+> [`dist/machinebot-ecommerce-studio-1.6.1.zip`](./dist/machinebot-ecommerce-studio-1.6.1.zip)은 소스 검수와 로컬 설치 테스트, 영상 공유를 위한 배포본입니다. ChatGPT Work의 공개 플러그인 목록에 노출하려면 별도의 universal plugin directory 제출과 승인이 필요합니다.
 
 ## 설계 원칙
 
