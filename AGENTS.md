@@ -135,6 +135,7 @@ Before the final response, always check:
 - 플러그인 메타데이터와 버전: `plugins/machinebot-ecommerce-studio/.codex-plugin/plugin.json`
 - 분기별 산출물: `plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/branches.md`
 - 상세페이지 패널 구조: `plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/detail-page-blueprint.md`
+- 소구·고객 가치·장면 시각화: `plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/sales-visual-strategy.md`
 - 이미지 제작 절차: `plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/image-production.md`
 - 검수 기준: `plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/quality-gates.md`
 - 행동 검증: `validation/behavior-evaluation.md`
@@ -149,6 +150,14 @@ Before the final response, always check:
 4. 기존 `validation/` 시나리오가 보장하는 동작을 확인한다.
 5. 사용자가 제공한 변경과 무관한 파일은 건드리지 않는다.
 
+## Harness improvement workflow
+
+- 하네스 보강은 사용자 지정 `techtreecoltd/machine-code` 기반으로 진행한다. 목표·요구사항은 `docs/harness-goals.md`와 `docs/harness-prd.md`, 개발 순서·증거·인계는 `.machine-code/`에서 확인한다.
+- 현재 대화를 메인 세션으로 유지하고 직렬 작업한다. 사용자 인사이트와 설계 방향이 필요한 부분은 구체적인 안을 제시해 컨펌받은 뒤 의존 작업을 시작한다. 승인한 범위의 수정·검증은 재승인을 반복하지 않는다.
+- `machine-code`는 개발 상태와 증거, `harness-creator`는 제작 단계 연결을 담당한다. 실제 검토한 작업 경험에서 스킬을 추출할 때 `skill-creator2`를 사용한다.
+- Machine Code 메타데이터가 제품 실행 원본을 대신하지 않는다. 개발 스킬·상태 파일을 판매 플러그인의 필수 의존성이나 배포 ZIP에 넣지 않는다.
+- 프로젝트 전체 완료에는 실제 검증과 읽기 전용 독립 완료 감사가 필요하다. 단계별 완료·설치 완료를 전체 목표 완료로 표시하지 않는다.
+
 ## Non-negotiable behavior
 
 - 사용자 제품 사진, 로고, 패키지 문구와 검증된 정보를 기준 원본으로 취급한다.
@@ -158,6 +167,10 @@ Before the final response, always check:
 - 상세페이지와 전체 패키지는 구성안을 한 번 승인받고 생성한다.
 - 상세페이지는 6·8·10장 중 하나이며, 패널당 기본 1080 × 2160px, 최소 세로 2000px, 마지막 패널 FAQ를 유지한다.
 - 제품 정체성이 중요하면 신규 생성보다 사용자 제품 사진 기반 편집을 우선한다.
+- 판매 제작은 제품 장점·고객 가치·근거·소구·장면을 연결한 뒤 생성한다. 단순 누끼·부분 수정은 필요한 범위만 적용한다.
+- 상세페이지 안에 필요한 연출·장점·필요 상황 시각화를 포함한다. 제품 정체성 보존을 원본 포즈·배경 반복으로 해석하지 않는다.
+- 같은 사진의 크롭·문구 변경·동일 포즈 재생성을 새 연출로 세지 않는다. 소구 전달과 장면 다양성이 실패하면 규격만 통과해도 완성으로 표시하지 않는다.
+- 미검증 기능은 시각 효과로도 주장하지 않는다. 자료 부족은 근거 확보·기획 재구성·시안 구분으로 처리하고 소비자용 패널을 미확인 정보 안내로 채우지 않는다.
 - 일반 상세페이지와 외국어 원본 재제작 모두에서 제품·배경·효과·최종 타이포그래피를 패널당 한 번의 호스트 이미지 생성 또는 편집 호출 안에서 함께 렌더링한다. 한 번의 시도는 별도 레이어가 없는 평탄화 이미지 한 장을 만든다.
 - 텍스트 없는 베이스, 투명 타이포그래피 PNG, 텍스트 패치, HTML·CSS·SVG·캔버스·시스템 폰트 렌더링을 만들거나 최종 이미지에 합성하지 않는다. 결정적 도구는 리사이즈·파일명·연결·압축처럼 픽셀 내용을 새로 그리지 않는 후처리에만 사용한다.
 - 외국어 상세페이지를 한국형 상세페이지로 재제작할 때는 원문의 제품·구조만 추출하고, 같은 이미지 생성 호출에서 원문 제거와 확정 한국어 카피 렌더링을 수행한다.
@@ -172,6 +185,7 @@ Before the final response, always check:
 | 분기·수량 | `branches.md`, `README.md`, 플러그인 `README.md` |
 | 상세페이지 규격 | `detail-page-blueprint.md`, `image-production.md`, `quality-gates.md`, 행동 검증 |
 | 이미지 제작 방법 | `image-production.md`, `quality-gates.md`, `SKILL.md` |
+| 세일즈 포인트·장점·필요 상황 시각화 | `sales-visual-strategy.md`, `detail-page-blueprint.md`, `image-production.md`, `quality-gates.md`, `SKILL.md`, 행동 검증 |
 | 외국어 상세페이지 현지화 | `source-detail-localization.md`, `image-production.md`, `quality-gates.md`, `SKILL.md`, 행동 검증 |
 | 브랜드·타이틀 이미지 | 플러그인 `assets/`, 두 README, `YOUTUBE_RELEASE_GUIDE.md`, `plugin.json`, `agents/openai.yaml` |
 | 표시 이름·설명·버전 | `.codex-plugin/plugin.json`, 두 README, `CHANGELOG.md`, 배포 ZIP |

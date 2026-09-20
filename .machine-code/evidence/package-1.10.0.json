@@ -1,0 +1,14 @@
+{
+  "version": "1.10.0",
+  "archive": "dist/machinebot-ecommerce-studio-1.10.0.zip",
+  "sha256": "d6fdd3cbdbc80e934c3eac6a0cf02cafb3d6e3c41cbf14ee7414e8cd3f1afb33",
+  "bytes": 4931310,
+  "source_files": 18,
+  "extracted_files": 18,
+  "byte_equality": true,
+  "top_level": "machinebot-ecommerce-studio",
+  "package_markdown_links_checked": 38,
+  "manifest_icons_exist": true,
+  "readme_release_versions_match": true,
+  "extraction": "validation/package-check-1.10.0"
+}

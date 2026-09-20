@@ -2,11 +2,16 @@
 validation/package-check*/
 validation/branding-workbench/
 
-# Keep only the current distributable package in Git
+# Release packages explicitly kept in Git
 dist/*.zip
 !dist/machinebot-ecommerce-studio-1.8.0.zip
+!dist/machinebot-ecommerce-studio-1.9.0.zip
+!dist/machinebot-ecommerce-studio-1.10.0.zip
 
 # Local/editor noise
 .DS_Store
 Thumbs.db
 *.tmp
+
+# Product sources and generated customer/test deliverables stay local.
+output/

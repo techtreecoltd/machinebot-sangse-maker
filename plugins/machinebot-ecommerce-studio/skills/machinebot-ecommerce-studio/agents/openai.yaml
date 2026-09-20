@@ -1,9 +1,9 @@
 interface:
   display_name: "김머신 이커머스 상세페이지 스튜디오"
-  short_description: "제품별 제작 분기를 제안하고 이미지 결과물까지 완성"
+  short_description: "짧은 질문으로 제작 타입을 추천하고 선택한 판매 이미지를 기획·완성"
   icon_small: "./assets/machinebot-avatar.png"
   icon_large: "./assets/machinebot-avatar.png"
   brand_color: "#111827"
-  default_prompt: "Use $machinebot-ecommerce-studio to analyze my product or foreign-language source page, then render each complete commerce image and its final copy in one image-generation call."
+  default_prompt: "Use $machinebot-ecommerce-studio to help me choose commerce images with only the missing intake questions and 2–3 suitable options, including any full-package option in that total. If I already specify a type, go directly to it. Preserve my product evidence, plan distinct selling scenes, and render and review each final image with its copy in one image-generation call."
 policy:
   allow_implicit_invocation: true

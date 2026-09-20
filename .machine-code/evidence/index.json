@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "kind": "machine-code-evidence-index",
+  "entries": [
+    {
+      "id": "ev-001",
+      "kind": "installation",
+      "result": "pass",
+      "path": ".machine-code/evidence/installation-20260921.md",
+      "sha256": "a89f37a5f6a5a8c084f140750edbb1c4a27549c4b59ac0de4166458f762c3c34",
+      "stage": "understand",
+      "recorded_at": "2026-09-20T21:17:42.474Z"
+    },
+    {
+      "id": "ev-002",
+      "kind": "plan",
+      "result": "unknown",
+      "path": ".machine-code/plan.md",
+      "sha256": "c04457d919ddd8abf198300010fdd3d1c8c221ff8413d2da2bc4860438c6ecb3",
+      "stage": "understand",
+      "recorded_at": "2026-09-20T21:17:42.474Z"
+    },
+    {
+      "id": "ev-003",
+      "kind": "setup-validation",
+      "result": "pass",
+      "path": ".machine-code/evidence/setup-validation-20260921.md",
+      "sha256": "f1cef7c4c450181743165f9641a89ec9b240d594dbcaf2d7dae60d790e21b388",
+      "stage": "understand",
+      "recorded_at": "2026-09-20T21:19:28.984Z"
+    },
+    {
+      "id": "ev-004",
+      "kind": "plan",
+      "result": "pass",
+      "path": ".machine-code/plan.md",
+      "sha256": "f4fa56c14e76d9d193db75188d15eb4433a71ac38bd11548aead305f029c997d",
+      "stage": "design",
+      "recorded_at": "2026-09-20T21:25:14.930Z"
+    },
+    {
+      "id": "ev-005",
+      "kind": "approval",
+      "result": "pass",
+      "path": "docs/harness-goals.md",
+      "sha256": "8cbdc1d4afab9dc83821fa74769bec8b71239e77632656211f987bfc9de18208",
+      "stage": "design",
+      "recorded_at": "2026-09-20T21:25:14.930Z"
+    },
+    {
+      "id": "ev-006",
+      "kind": "plan",
+      "result": "pass",
+      "path": ".machine-code/plan.md",
+      "sha256": "26a43164d56d71b6968a4fcd055a6a07d5846808301e7a5fa7bc010b1dc1fc72",
+      "stage": "execute",
+      "recorded_at": "2026-09-20T21:45:27.377Z"
+    },
+    {
+      "id": "ev-007",
+      "kind": "s1-implementation",
+      "result": "pass",
+      "path": "validation/release-1.10.0-validation.md",
+      "sha256": "5bfb14c6fd4d5435f55772244c02215cd9c82e5cb875feed05bbecb810870348",
+      "stage": "execute",
+      "recorded_at": "2026-09-20T21:45:27.377Z"
+    },
+    {
+      "id": "ev-008",
+      "kind": "s1-verification",
+      "result": "pass",
+      "path": ".machine-code/evidence/s1-checks-1.10.0.md",
+      "sha256": "2b2046cfb04df0fbc53abfdbe121fa0a721c136db08ace7424ebb9078a85c206",
+      "stage": "execute",
+      "recorded_at": "2026-09-20T21:45:27.377Z"
+    },
+    {
+      "id": "ev-009",
+      "kind": "s1-package",
+      "result": "pass",
+      "path": ".machine-code/evidence/package-1.10.0.json",
+      "sha256": "d64d1258c928d2a957822a8000dd39dbb7a268fa37ec581d09266c1025fc7bec",
+      "stage": "execute",
+      "recorded_at": "2026-09-20T21:45:27.377Z"
+    },
+    {
+      "id": "ev-010",
+      "kind": "s1-audit-initial",
+      "result": "fail",
+      "path": ".machine-code/evidence/s1-audit-initial-1.10.0.md",
+      "sha256": "75be920ddfb038d3093b5fbf2ddb7e5ed3545f15a099691f225864d0fb8030f8",
+      "stage": "execute",
+      "recorded_at": "2026-09-20T21:45:27.377Z"
+    },
+    {
+      "id": "ev-011",
+      "kind": "plan",
+      "result": "pass",
+      "path": ".machine-code/plan.md",
+      "sha256": "702ff49bcaff3cd2bb0a4816539b90c5a51f4917af427617065815906f47317a",
+      "stage": "execute",
+      "recorded_at": "2026-09-20T21:48:31.628Z"
+    },
+    {
+      "id": "ev-012",
+      "kind": "s1-implementation",
+      "result": "pass",
+      "path": "validation/release-1.10.0-validation.md",
+      "sha256": "ce35969f21a3d42bb3665802ad83bb16e03ba1d6752869da8653f0255a4fa370",
+      "stage": "execute",
+      "recorded_at": "2026-09-20T21:48:31.628Z"
+    },
+    {
+      "id": "ev-013",
+      "kind": "s1-audit",
+      "result": "pass",
+      "path": ".machine-code/evidence/s1-audit-final-1.10.0.md",
+      "sha256": "a6f6d659d4ddab3f64741040028c83995796d6c1dc4c44059b961d5474d330d7",
+      "stage": "execute",
+      "recorded_at": "2026-09-20T21:48:31.628Z"
+    },
+    {
+      "id": "ev-014",
+      "kind": "plan",
+      "result": "pass",
+      "path": ".machine-code/plan.md",
+      "sha256": "be6da3e0256f5ccbaf8e8d3ea0fdc3da4bf4264c6e7d2b1ad47cf2939582ae3d",
+      "stage": "execute",
+      "recorded_at": "2026-09-20T22:10:58.139Z"
+    }
+  ]
+}
