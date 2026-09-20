@@ -1,0 +1,6 @@
+interface:
+  display_name: "김머신 상품 썸네일"
+  short_description: "정확한 메인 상품컷과 구매 질문에 답하는 서브 썸네일 세트 제작"
+  default_prompt: "$machinebot-thumbnail 이 제품으로 흰 배경 메인 1장과 서브 5장을 만들어 줘."
+policy:
+  allow_implicit_invocation: true

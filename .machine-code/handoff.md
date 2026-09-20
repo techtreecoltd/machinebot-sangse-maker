@@ -23,6 +23,7 @@
 - execute: S2 implementation/package pass, actual cutout colour fidelity fails after retries; mark assets failed, request pixel-preserving masking exception, continue independent S3 from original. (2026-09-20T22:22:00.579Z)
 - execute: S3 independent lifestyle skill and four actual synthetic images pass bounded critic; S2 colour gate remains open. Continue S4 detail/localization. (2026-09-20T22:26:49.913Z)
 - execute: S4 independent detail/localization and six actual 1080x2160 panels pass bounded critic; seven host calls and FAQ verified. Continue S5; S2 colour gate open. (2026-09-20T22:36:34.176Z)
+- execute: S5 thumbnail skill and six actual synthetic thumbnails pass after critic-found appeal mapping correction; package checks pass. Continue S6 benefit visual skill. (2026-09-20T22:47:28.400Z)
 
 ## Evidence
 
@@ -46,6 +47,8 @@
 - s3-critic: pass — `validation/critic-s3.md`
 - s4-implementation: pass — `validation/release-1.13.0-validation.md`
 - s4-critic: pass — `validation/critic-s4.md`
+- s5-implementation: pass — `validation/release-1.14.0-validation.md`
+- s5-critic: pass — `validation/critic-s5-final.md`
 
 ## Resume contract
 

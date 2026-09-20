@@ -116,8 +116,18 @@
         "ev-020"
       ],
       "recorded_at": "2026-09-20T22:36:34.176Z"
+    },
+    {
+      "id": "cp-012",
+      "stage": "execute",
+      "summary": "S5 thumbnail skill and six actual synthetic thumbnails pass after critic-found appeal mapping correction; package checks pass. Continue S6 benefit visual skill.",
+      "evidence_ids": [
+        "ev-021",
+        "ev-022"
+      ],
+      "recorded_at": "2026-09-20T22:47:28.400Z"
     }
   ],
   "created_at": "2026-09-20T21:14:10.385Z",
-  "updated_at": "2026-09-20T22:36:34.176Z"
+  "updated_at": "2026-09-20T22:47:28.400Z"
 }
