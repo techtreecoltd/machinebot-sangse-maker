@@ -2,7 +2,7 @@
 
 ## 공유할 파일
 
-최종 배포 파일은 `dist/machinebot-ecommerce-studio-1.11.0.zip`이다. 압축을 풀면 독립 사용 안내 `README.md`, `.codex-plugin/plugin.json`, `assets/`, `skills/machinebot-ecommerce-studio/`가 들어 있는 스킬 전용 플러그인 폴더가 나온다.
+최종 배포 파일은 `dist/machinebot-ecommerce-studio-1.12.0.zip`이다. 압축을 풀면 독립 사용 안내 `README.md`, `.codex-plugin/plugin.json`, `assets/`, `skills/machinebot-ecommerce-studio/`가 들어 있는 스킬 전용 플러그인 폴더가 나온다.
 
 프로젝트의 가치, 지원 범위, 작동 흐름을 먼저 소개하려면 루트 `README.md`를 사용한다. 영상 설명란에는 저장소 링크와 함께 현재 버전 ZIP이 로컬 검수·공유용이라는 점을 적는다.
 
@@ -50,3 +50,5 @@
 - Plugins: https://learn.chatgpt.com/docs/build-plugins
 
 독립 누끼: `$machinebot-product-cutout 이 제품 사진으로 투명 PNG 한 장을 만들어 줘.` 다른 제작도 원본과 검수 자산을 product-context.json으로 이어 받을 수 있습니다.
+
+연출·실사용컷을 machinebot-lifestyle로 분리하고 원본·검수 자산을 재사용한다. 단독 연출은 상세페이지로 자동 확장하지 않는다.

@@ -78,11 +78,11 @@ description: 한국형 이커머스 판매 이미지를 기획·생성한다. �
 2. 예상 산출물 수와 핵심 장면
 3. 시작에 필요한 추가 자료
 
-가장 적합한 하나에는 `추천`을 표시한다. 사용자가 선택하면 [연결 브리프](references/intake-routing.md)의 항목으로 선택 범위·기존 자료·미확인 사항을 짧게 정리하고 이 스킬의 해당 제작 절차로 진행한다. 누끼는 [독립 누끼 스킬](../machinebot-product-cutout/SKILL.md)을 읽고 실행한다. 다른 분기는 아직 이 스킬의 제작 절차를 따른다. 선택을 이미 했다면 다시 메뉴를 고르게 하지 않는다.
+가장 적합한 하나에는 `추천`을 표시한다. 사용자가 선택하면 [연결 브리프](references/intake-routing.md)의 항목으로 선택 범위·기존 자료·미확인 사항을 짧게 정리하고 이 스킬의 해당 제작 절차로 진행한다. 누끼는 [독립 누끼 스킬](../machinebot-product-cutout/SKILL.md)을 읽고 실행한다. 연출은 [독립 연출 스킬](../machinebot-lifestyle/SKILL.md)을 읽고 실행한다. 나머지 분기는 이 스킬의 제작 절차를 따른다. 선택을 이미 했다면 다시 메뉴를 고르게 하지 않는다.
 
 ### 4. 소구·시각화 설계와 브리프 확정
 
-누끼 요청은 [machinebot-product-cutout](../machinebot-product-cutout/SKILL.md)으로 연결하고 [제품 기록](references/product-context.md)을 이어 쓴다. 이 절차를 중복 실행하지 않는다.
+누끼 요청은 [machinebot-product-cutout](../machinebot-product-cutout/SKILL.md)으로 연결하고 [제품 기록](references/product-context.md)을 이어 쓴다. 연출·실사용은 [machinebot-lifestyle](../machinebot-lifestyle/SKILL.md)로 연결한다. 독립 스킬의 절차를 중복 실행하지 않는다.
 
 단순 누끼·배경 제거·오탈자 수정은 제품 기준과 요청 범위를 유지해 5단계의 해당 편집으로 진행한다. 전체 소구 설계를 새로 요구하지 않는다.
 

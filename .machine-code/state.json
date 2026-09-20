@@ -96,8 +96,18 @@
         "ev-016"
       ],
       "recorded_at": "2026-09-20T22:22:00.579Z"
+    },
+    {
+      "id": "cp-010",
+      "stage": "execute",
+      "summary": "S3 independent lifestyle skill and four actual synthetic images pass bounded critic; S2 colour gate remains open. Continue S4 detail/localization.",
+      "evidence_ids": [
+        "ev-017",
+        "ev-018"
+      ],
+      "recorded_at": "2026-09-20T22:26:49.913Z"
     }
   ],
   "created_at": "2026-09-20T21:14:10.385Z",
-  "updated_at": "2026-09-20T22:22:00.579Z"
+  "updated_at": "2026-09-20T22:26:49.913Z"
 }

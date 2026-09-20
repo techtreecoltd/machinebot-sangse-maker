@@ -1,0 +1,6 @@
+interface:
+  display_name: "김머신 연출·실사용컷"
+  short_description: "제품 정체성을 유지하며 구매 이유가 보이는 연출·사용 장면 제작"
+  default_prompt: "$machinebot-lifestyle 이 제품 사진으로 서로 다른 사용 장면의 연출컷 4장을 만들어 줘."
+policy:
+  allow_implicit_invocation: true

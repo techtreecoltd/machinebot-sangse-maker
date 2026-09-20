@@ -145,6 +145,24 @@
       "sha256": "766e7832bdfedb163504dd4aeed7e00c1f43120e14428c191db830394e97bcff",
       "stage": "execute",
       "recorded_at": "2026-09-20T22:22:00.579Z"
+    },
+    {
+      "id": "ev-017",
+      "kind": "s3-implementation",
+      "result": "pass",
+      "path": "validation/release-1.12.0-validation.md",
+      "sha256": "67130a1c2c9c72b192f70b896d59727c975fe728b5f85e1178bb553204f61bc7",
+      "stage": "execute",
+      "recorded_at": "2026-09-20T22:26:49.913Z"
+    },
+    {
+      "id": "ev-018",
+      "kind": "s3-critic",
+      "result": "pass",
+      "path": "validation/critic-s3.md",
+      "sha256": "f110b577f134405da9eaff28b15d8213af85eed87714a0ccbe7dfe79c5fd6ef5",
+      "stage": "execute",
+      "recorded_at": "2026-09-20T22:26:49.913Z"
     }
   ]
 }
