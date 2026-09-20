@@ -2,7 +2,7 @@
 
 ## 공유할 파일
 
-최종 배포 파일은 `dist/machinebot-ecommerce-studio-1.16.3.zip`이다. 압축을 풀면 독립 사용 안내 `README.md`, `.codex-plugin/plugin.json`, `assets/`, `skills/machinebot-ecommerce-studio/`가 들어 있는 스킬 전용 플러그인 폴더가 나온다.
+최종 배포 파일은 `dist/machinebot-ecommerce-studio-1.16.6.zip`이다. 압축을 풀면 독립 사용 안내 `README.md`, `.codex-plugin/plugin.json`, `assets/`, `skills/machinebot-ecommerce-studio/`가 들어 있는 스킬 전용 플러그인 폴더가 나온다.
 
 프로젝트의 가치, 지원 범위, 작동 흐름을 먼저 소개하려면 루트 `README.md`를 사용한다. 영상 설명란에는 저장소 링크와 함께 현재 버전 ZIP이 로컬 검수·공유용이라는 점을 적는다.
 
@@ -66,3 +66,9 @@
 패키지 슬롯 중복 파일 차단과 회귀 테스트 보강
 
 라이트 누끼 1~2장 계약과 미지원 tier 차단
+
+추상 가치의 CG 시각화 판단을 연출·효용·상세 공통 흐름에 반영
+
+CG 판단 카탈로그와 README·연출·효용 연결 설명 보강
+
+CG 시각화 판단을 상세페이지 스킬까지 직접 연결하고 실제 합성 fixture 검수 기록 추가

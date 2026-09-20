@@ -9,7 +9,7 @@ description: 제품 사진·확인된 정보로 6·8·10장 한국형 상세페�
 
 1. 제품 원본과 기존 기록의 옵션·해시·검수 상태를 확인한다. 기존 자산은 적합하고 pass일 때 보조 참조로 활용한다. 원본이 사라졌거나 다른 옵션이면 관련 항목만 확인한다. 원본 사실·확인 필요·연출 선택을 분리한다.
 2. 외국어 원본·ZIP이면 [현지화 절차](../machinebot-ecommerce-studio/references/source-detail-localization.md)를 먼저 읽는다. 실제 제품 브랜드는 보존하고 외국어 판매 문구·효과는 사실 증거로 승격하지 않는다. 사용자 승인 제거 대상과 보존 요소를 분리한다.
-3. [소구 설계](../machinebot-ecommerce-studio/references/sales-visual-strategy.md)와 [패널 설계](../machinebot-ecommerce-studio/references/detail-page-blueprint.md)를 읽고 고객 상황→제품 특징→가치→근거→장면을 연결한다. 장수는 6·8·10 중 선택하며 명시 수량이 우선이다. 그 외 수량 요청은 지원 범위를 설명하고 선택받는다.
+3. [소구 설계](../machinebot-ecommerce-studio/references/sales-visual-strategy.md), [CG 시각화 판단 카탈로그](../machinebot-ecommerce-studio/references/cg-visualization-catalog.md), [패널 설계](../machinebot-ecommerce-studio/references/detail-page-blueprint.md)를 읽고 고객 상황→제품 특징→가치→근거→장면을 연결한다. 사진만으로 차단·흐름·재질·접촉 부위·구조가 보이지 않으면 해당 패널의 CG 후보를 설계하되, 근거가 없으면 관심 부위·표면 관찰·실제 사용 동작 수준으로 낮춘다. 장수는 6·8·10 중 선택하며 명시 수량이 우선이다. 그 외 수량 요청은 지원 범위를 설명하고 선택받는다.
 4. 패널별 구매 질문·헤드라인·정확 카피·소구/근거/장면 ID·새 구매 정보를 제안하고 한 번 승인받는다. 기존 패키지 승인에 이 상세 구성이 포함되어 있으면 반복하지 않는다. 유효한 내용이 부족하면 필요한 사실만 확보하거나 구성 재설계를 제안한다. 근거 없는 주장이나 “정보 없음” FAQ로 장수를 채우지 않는다.
 5. 승인한 계획을 product-context.json의 plans에 기록한다. 기본 1080×2160px, 최소 높이 2000px, 마지막 FAQ를 유지한다. 첫 실제 히어로를 스타일 테스트로 쓸 수 있고 별도 테스트 이미지를 필수로 더하지 않는다.
 6. [제작 절차](../machinebot-ecommerce-studio/references/image-production.md)에 따라 패널마다 제품·새 장면·효과·확정 카피를 **한 번의 호스트 호출**로 완성한다. 매 호출에 원본 정체성과 허용 문자열을 명시한다. 누끼/연출 자산은 참조이며 별도 글자 레이어를 붙일 베이스가 아니다. 여러 패널을 한 이미지로 뽑아 자르지 않는다.

@@ -11,5 +11,6 @@
 | S5 | codex/s5-thumbnail | 0cbc199803685121ea573f0d3c73f236f90bc801 | push 성공 후 ls-remote 일치; appeal 매핑 수정 후 독립 크리틱 통과 |
 | S6 | codex/s6-benefit | b9b8ce081a2b012a0052bfe92c33e8b766eb7144 | push 성공 후 ls-remote 일치; 효용 3장 직접 검수 |
 | S7 | codex/s7-package | d1dee3324d622bcbb46ff2b86ee56658d2848caa | push 성공 후 ls-remote 일치; 1.16.3 패키지 게이트·부분 manifest·독립 크리틱 진행 |
+| S8 | codex/s8-cg-visualization | pending | CG 판단 카탈로그·실제 합성 fixture·독립 크리틱 후 푸시 예정 |
 
 생성 결과·고객 자료는 로컬 output/에 보관한다. Git에는 플러그인 소스·배포 ZIP·검증 기록을 올린다.

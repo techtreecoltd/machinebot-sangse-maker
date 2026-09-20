@@ -5,10 +5,10 @@ description: 확인된 제품 기능·구조·사용 장점을 근거 있는 시
 
 # 효용·기능 시각화컷
 
-[공통 제작 계약](../machinebot-ecommerce-studio/references/production-contract.md), [제품 기록](../machinebot-ecommerce-studio/references/product-context.md), [소구 설계](../machinebot-ecommerce-studio/references/sales-visual-strategy.md)를 읽는다. 누끼·연출·상세페이지를 필수 선행으로 만들지 않는다. 원본 사진과 확인된 자료로 직접 시작할 수 있다.
+[공통 제작 계약](../machinebot-ecommerce-studio/references/production-contract.md), [제품 기록](../machinebot-ecommerce-studio/references/product-context.md), [소구 설계](../machinebot-ecommerce-studio/references/sales-visual-strategy.md), [CG 시각화 판단 카탈로그](../machinebot-ecommerce-studio/references/cg-visualization-catalog.md)를 읽는다. 누끼·연출·상세페이지를 필수 선행으로 만들지 않는다. 원본 사진과 확인된 자료로 직접 시작할 수 있다.
 
 1. 기본 3~6장이며 명시 수량·단독 범위를 우선한다. 기능·구조·사용 방식의 근거를 source/fact ID로 고정한다. 사진 관찰은 보이는 구조·행동까지만, 사용자 스펙은 같은 모델·옵션의 명시 범위까지만 사용한다.
-2. 숫자·비교·전후 결과·열·냉기·흡수·방수·탄력처럼 성능을 읽게 하는 표현은 근거가 있을 때만 쓴다. 숫자를 빼도 효과 자체가 주장이면 미확인 기능으로 차단한다. 확인된 구조, 필요한 상황, 실제 사용 동작으로 충분히 설명되면 추상 효과보다 그 방식을 고른다.
+2. 숫자·비교·전후 결과·열·냉기·흡수·방수·탄력처럼 성능을 읽게 하는 표현은 근거가 있을 때만 쓴다. 숫자를 빼도 효과 자체가 주장이면 미확인 기능으로 차단한다. 확인된 구조, 필요한 상황, 실제 사용 동작으로 충분히 설명되면 추상 효과보다 그 방식을 고른다. 반대로 일반 사진으로 차단·흐름·재질·접촉 부위·내부 구조가 보이지 않아 가치가 사라지면 카탈로그의 CG 유형을 선택하고, 근거가 없는 경우 관심 부위·표면 관찰·구조 설명 수준으로 낮춘다.
 3. 각 컷에 appeal ID, fact/source ID, 고객 질문, 보여줄 행동·상태, 이전 컷과 다른 정보를 연결한다. 계획에 없는 단면·레이어·부품·화살표를 발명하지 않는다. 개념 표현이면 실제 시험 결과가 아닌 시각적 설명임을 구분한다.
 4. [이미지 제작](../machinebot-ecommerce-studio/references/image-production.md)에 따라 제품·효과·장면·확정 카피를 자산별 한 호스트 호출에서 평탄화한다. 제품 형상·옵션·로고를 잠근다. 텍스트 패치·별도 레이어·코드 합성은 금지한다.
 5. 생성 후 실제 이미지를 열어 제품 동일성, 효과가 주장 범위를 넘지 않는지, 화살표·단면·카피가 근거와 맞는지, 세트 역할이 반복되지 않는지 확인한다. 규격만 맞는 이미지나 예쁜 효과를 완료로 표시하지 않는다.
