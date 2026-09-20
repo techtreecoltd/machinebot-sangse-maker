@@ -127,6 +127,24 @@
       "sha256": "be6da3e0256f5ccbaf8e8d3ea0fdc3da4bf4264c6e7d2b1ad47cf2939582ae3d",
       "stage": "execute",
       "recorded_at": "2026-09-20T22:10:58.139Z"
+    },
+    {
+      "id": "ev-015",
+      "kind": "s2-package",
+      "result": "pass",
+      "path": "validation/package-1.11.0.json",
+      "sha256": "07fcc2c1c0d43c576809946c8b889a97480f5d89c6c8d1cf3b1b26f77689696d",
+      "stage": "execute",
+      "recorded_at": "2026-09-20T22:22:00.579Z"
+    },
+    {
+      "id": "ev-016",
+      "kind": "s2-visual",
+      "result": "fail",
+      "path": "validation/release-1.11.0-validation.md",
+      "sha256": "766e7832bdfedb163504dd4aeed7e00c1f43120e14428c191db830394e97bcff",
+      "stage": "execute",
+      "recorded_at": "2026-09-20T22:22:00.579Z"
     }
   ]
 }

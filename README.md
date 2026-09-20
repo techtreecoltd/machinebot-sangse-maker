@@ -8,7 +8,7 @@
 
 사용자가 결과물 종류를 아직 정하지 못했다면 목적·보유 자료·이번 범위에서 부족한 정보만 기본 1~3개 질문하고, 전체 패키지를 포함해 총 2~3개 제작 타입을 제안합니다. 각 추천에는 이유·산출물·필요한 추가 자료를 붙입니다. 사용자가 하나를 고르면 제품 정체성과 사실 정보를 이어 받아 선택한 결과물을 제작하고 검수합니다. 이미 타입을 지정했다면 바로 해당 제작으로 진행합니다.
 
-**현재 버전: 1.10.0.** 시작 질의응답·타입 추천·명시 요청 직행을 보강했습니다. 제작에서는 제품 장점과 고객 가치를 근거 있는 장면으로 연결하며, 상세페이지 안에 필요한 신규 연출과 효용 시각화를 포함합니다. 개별 제작 스킬 분리는 후속 단계입니다.
+**현재 버전: 1.11.0.** 시작 질의응답·타입 추천·명시 요청 직행을 보강했습니다. 제작에서는 제품 장점과 고객 가치를 근거 있는 장면으로 연결하며, 상세페이지 안에 필요한 신규 연출과 효용 시각화를 포함합니다. 제품 누끼는 독립 스킬로 실행하며 원본·자산 기록을 인계합니다.
 
 ## 어떤 가치를 제공하나
 
@@ -85,7 +85,7 @@ $machinebot-ecommerce-studio 이 제품의 누끼, 썸네일, 연출컷,
 
 > **현재 배포 상태**
 >
-> [`dist/machinebot-ecommerce-studio-1.10.0.zip`](./dist/machinebot-ecommerce-studio-1.10.0.zip)은 소스 검수와 로컬 설치 테스트, 영상 공유를 위한 배포본입니다. [SHA-256](./dist/machinebot-ecommerce-studio-1.10.0.zip.sha256)으로 파일을 확인할 수 있습니다. ChatGPT Work의 공개 플러그인 목록에 노출하려면 별도의 universal plugin directory 제출과 승인이 필요합니다.
+> [`dist/machinebot-ecommerce-studio-1.11.0.zip`](./dist/machinebot-ecommerce-studio-1.11.0.zip)은 소스 검수와 로컬 설치 테스트, 영상 공유를 위한 배포본입니다. [SHA-256](./dist/machinebot-ecommerce-studio-1.11.0.zip.sha256)으로 파일을 확인할 수 있습니다. ChatGPT Work의 공개 플러그인 목록에 노출하려면 별도의 universal plugin directory 제출과 승인이 필요합니다.
 
 ## 설계 원칙
 
@@ -149,3 +149,5 @@ $machinebot-ecommerce-studio 이 제품의 누끼, 썸네일, 연출컷,
 ---
 
 **상품 하나. 판매에 필요한 이미지 흐름 전체.**
+
+독립 누끼: `$machinebot-product-cutout 이 제품 사진으로 투명 PNG 한 장을 만들어 줘.` 다른 제작도 원본과 검수 자산을 product-context.json으로 이어 받을 수 있습니다.

@@ -1,0 +1,6 @@
+interface:
+  display_name: "김머신 제품 누끼"
+  short_description: "제품 원본의 형상과 문구를 보존한 투명 누끼를 제작하고 검수"
+  default_prompt: "$machinebot-product-cutout 이 제품 사진의 배경을 제거해 투명 PNG 한 장으로 만들어 줘."
+policy:
+  allow_implicit_invocation: true

@@ -20,6 +20,7 @@
 - execute: S1 1.10.0 구현·15개 독립 대화 실행·원본/압축 해제본 검사·공수 산정 완료. 독립 감사에서 제품 동작은 통과했고 릴리스 기록·인계 갱신을 지적해 보완했다. 다음 제품 작업은 S2 설계 컨펌이며 S2~S7은 미구현이다. (2026-09-20T21:45:27.377Z)
 - execute: S1 1.10.0과 공수 산정이 독립 감사 최종 pass를 받았다. 15개 텍스트 사례·원본/해제본·18개 파일 일치·체크섬 검증 완료. S1은 완료이며 다음 사용자 결정은 PRD §10의 S2 누끼 독립 스킬과 공통 제품 기록 설계다. S2~S7 및 실제 이미지 품질은 미검증·미구현으로 전체 목표를 complete로 표시하지 않는다. (2026-09-20T21:48:31.628Z)
 - execute: User authorized serial S2-S7 implementation, per-stage Git pushes, critic and real generated deliverables; synthetic tray fixture selected for tests; output stays local. (2026-09-20T22:10:58.139Z)
+- execute: S2 implementation/package pass, actual cutout colour fidelity fails after retries; mark assets failed, request pixel-preserving masking exception, continue independent S3 from original. (2026-09-20T22:22:00.579Z)
 
 ## Evidence
 
@@ -37,6 +38,8 @@
 - s1-implementation: pass — `validation/release-1.10.0-validation.md`
 - s1-audit: pass — `.machine-code/evidence/s1-audit-final-1.10.0.md`
 - plan: pass — `.machine-code/plan.md`
+- s2-package: pass — `validation/package-1.11.0.json`
+- s2-visual: fail — `validation/release-1.11.0-validation.md`
 
 ## Resume contract
 

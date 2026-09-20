@@ -15,3 +15,7 @@ Thumbs.db
 
 # Product sources and generated customer/test deliverables stay local.
 output/
+
+__pycache__/
+*.pyc
+!dist/machinebot-ecommerce-studio-1.11.0.zip
