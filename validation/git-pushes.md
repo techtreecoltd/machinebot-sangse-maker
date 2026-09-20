@@ -5,5 +5,7 @@
 | 단계 | 원격 브랜치 | 확인한 커밋 | 검증 |
 |---|---|---|---|
 | S1 | codex/s1-intake | 1154d259ab1fc3fb21b494090cdf42b92949b5d3 | push 성공 후 ls-remote 일치 |
+| S2 | codex/s2-cutout | b5c025bb6a84569e03c7028fd638ea100d708481 | push 성공 후 ls-remote 일치; 실제 색상 보존 FAIL 공개 기록 |
+| S3 | codex/s3-lifestyle | 676648e1330e26d64ce60d6681e9150153ffb327 | push 성공 후 ls-remote 일치 |
 
 생성 결과·고객 자료는 로컬 output/에 보관한다. Git에는 플러그인 소스·배포 ZIP·검증 기록을 올린다.

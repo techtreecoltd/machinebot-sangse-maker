@@ -22,6 +22,7 @@
 - execute: User authorized serial S2-S7 implementation, per-stage Git pushes, critic and real generated deliverables; synthetic tray fixture selected for tests; output stays local. (2026-09-20T22:10:58.139Z)
 - execute: S2 implementation/package pass, actual cutout colour fidelity fails after retries; mark assets failed, request pixel-preserving masking exception, continue independent S3 from original. (2026-09-20T22:22:00.579Z)
 - execute: S3 independent lifestyle skill and four actual synthetic images pass bounded critic; S2 colour gate remains open. Continue S4 detail/localization. (2026-09-20T22:26:49.913Z)
+- execute: S4 independent detail/localization and six actual 1080x2160 panels pass bounded critic; seven host calls and FAQ verified. Continue S5; S2 colour gate open. (2026-09-20T22:36:34.176Z)
 
 ## Evidence
 
@@ -43,6 +44,8 @@
 - s2-visual: fail — `validation/release-1.11.0-validation.md`
 - s3-implementation: pass — `validation/release-1.12.0-validation.md`
 - s3-critic: pass — `validation/critic-s3.md`
+- s4-implementation: pass — `validation/release-1.13.0-validation.md`
+- s4-critic: pass — `validation/critic-s4.md`
 
 ## Resume contract
 

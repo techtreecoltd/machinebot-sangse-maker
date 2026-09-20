@@ -20,3 +20,4 @@ __pycache__/
 *.pyc
 !dist/machinebot-ecommerce-studio-1.11.0.zip
 !dist/machinebot-ecommerce-studio-1.12.0.zip
+!dist/machinebot-ecommerce-studio-1.13.0.zip

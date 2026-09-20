@@ -1,0 +1,110 @@
+{
+  "version": "1.13.0",
+  "archive": "dist/machinebot-ecommerce-studio-1.13.0.zip",
+  "sha256": "0b02ea2f209f8095665caa6379c40e19c6736a7d73f15f58ee9d2db9c557eb90",
+  "file_count": 27,
+  "skills": 4,
+  "source_extraction_equal": true,
+  "checks": [
+    {
+      "command": [
+        "C:\\Users\\gimma\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\gimma\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py",
+        "C:\\Users\\gimma\\Documents\\dev\\machienbot-sangse-maker\\plugins\\machinebot-ecommerce-studio\\skills\\machinebot-detail-page"
+      ],
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\gimma\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\gimma\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py",
+        "C:\\Users\\gimma\\Documents\\dev\\machienbot-sangse-maker\\plugins\\machinebot-ecommerce-studio\\skills\\machinebot-ecommerce-studio"
+      ],
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\gimma\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\gimma\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py",
+        "C:\\Users\\gimma\\Documents\\dev\\machienbot-sangse-maker\\plugins\\machinebot-ecommerce-studio\\skills\\machinebot-lifestyle"
+      ],
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\gimma\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\gimma\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py",
+        "C:\\Users\\gimma\\Documents\\dev\\machienbot-sangse-maker\\plugins\\machinebot-ecommerce-studio\\skills\\machinebot-product-cutout"
+      ],
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\gimma\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\gimma\\.codex\\skills\\.system\\plugin-creator\\scripts\\validate_plugin.py",
+        "C:\\Users\\gimma\\Documents\\dev\\machienbot-sangse-maker\\plugins\\machinebot-ecommerce-studio"
+      ],
+      "exit_code": 0,
+      "stdout": "Plugin validation passed: C:\\Users\\gimma\\Documents\\dev\\machienbot-sangse-maker\\plugins\\machinebot-ecommerce-studio\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\gimma\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\gimma\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py",
+        "C:\\Users\\gimma\\Documents\\dev\\machienbot-sangse-maker\\validation\\package-check-1.13.0\\machinebot-ecommerce-studio\\skills\\machinebot-detail-page"
+      ],
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\gimma\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\gimma\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py",
+        "C:\\Users\\gimma\\Documents\\dev\\machienbot-sangse-maker\\validation\\package-check-1.13.0\\machinebot-ecommerce-studio\\skills\\machinebot-ecommerce-studio"
+      ],
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\gimma\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\gimma\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py",
+        "C:\\Users\\gimma\\Documents\\dev\\machienbot-sangse-maker\\validation\\package-check-1.13.0\\machinebot-ecommerce-studio\\skills\\machinebot-lifestyle"
+      ],
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\gimma\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\gimma\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py",
+        "C:\\Users\\gimma\\Documents\\dev\\machienbot-sangse-maker\\validation\\package-check-1.13.0\\machinebot-ecommerce-studio\\skills\\machinebot-product-cutout"
+      ],
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\gimma\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\gimma\\.codex\\skills\\.system\\plugin-creator\\scripts\\validate_plugin.py",
+        "C:\\Users\\gimma\\Documents\\dev\\machienbot-sangse-maker\\validation\\package-check-1.13.0\\machinebot-ecommerce-studio"
+      ],
+      "exit_code": 0,
+      "stdout": "Plugin validation passed: C:\\Users\\gimma\\Documents\\dev\\machienbot-sangse-maker\\validation\\package-check-1.13.0\\machinebot-ecommerce-studio\n",
+      "stderr": ""
+    }
+  ]
+}
