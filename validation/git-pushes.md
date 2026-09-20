@@ -7,5 +7,8 @@
 | S1 | codex/s1-intake | 1154d259ab1fc3fb21b494090cdf42b92949b5d3 | push 성공 후 ls-remote 일치 |
 | S2 | codex/s2-cutout | b5c025bb6a84569e03c7028fd638ea100d708481 | push 성공 후 ls-remote 일치; 실제 색상 보존 FAIL 공개 기록 |
 | S3 | codex/s3-lifestyle | 676648e1330e26d64ce60d6681e9150153ffb327 | push 성공 후 ls-remote 일치 |
+| S4 | codex/s4-detail | 746a2b831d1e5853c182dd7b6a2bfa9c4a9168bd | push 성공 후 ls-remote 일치; 6장 상세페이지 직접 검수 |
+| S5 | codex/s5-thumbnail | 0cbc199803685121ea573f0d3c73f236f90bc801 | push 성공 후 ls-remote 일치; appeal 매핑 수정 후 독립 크리틱 통과 |
+| S6 | codex/s6-benefit | b9b8ce081a2b012a0052bfe92c33e8b766eb7144 | push 성공 후 ls-remote 일치; 효용 3장 직접 검수 |
 
 생성 결과·고객 자료는 로컬 output/에 보관한다. Git에는 플러그인 소스·배포 ZIP·검증 기록을 올린다.

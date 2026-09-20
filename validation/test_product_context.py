@@ -59,6 +59,13 @@ class HandoffTests(unittest.TestCase):
         (self.root / "source.bin").unlink()
         self.assertTrue(MOD.validate(self.data, self.root))
 
+    def test_proposed_plan_can_record_unfinished_asset(self):
+        proposed = copy.deepcopy(self.data)
+        proposed["plans"][0].update(status="proposed")
+        proposed["plans"][0].pop("approval_evidence")
+        proposed["assets"][0].update(status="failed", review=None)
+        self.assertEqual([], MOD.validate(proposed, self.root))
+
 
 if __name__ == "__main__":
     unittest.main()

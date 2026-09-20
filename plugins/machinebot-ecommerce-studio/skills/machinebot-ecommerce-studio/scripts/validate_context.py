@@ -83,7 +83,8 @@ def validate(data, root):
             asset = assets.get(aid, {})
             check(aid not in used, f"{pid}: duplicate asset count")
             used.add(aid)
-            check(asset.get("status") == "pass", f"{pid}: unusable asset {aid}")
+            if plan.get("status") == "approved":
+                check(asset.get("status") == "pass", f"{pid}: unusable asset {aid}")
             check(asset.get("kind") == slot.get("kind"), f"{pid}: asset kind mismatch")
     return errors
 
