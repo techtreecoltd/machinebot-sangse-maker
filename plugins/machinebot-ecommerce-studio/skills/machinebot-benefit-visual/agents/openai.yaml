@@ -1,0 +1,6 @@
+interface:
+  display_name: "김머신 효용·기능 시각화"
+  short_description: "확인된 기능과 구조만 근거 있게 보여주는 효용 시각화컷 제작"
+  default_prompt: "$machinebot-benefit-visual 이 제품의 확인된 구조와 사용 장점을 보여주는 시각화컷 3장을 만들어 줘."
+policy:
+  allow_implicit_invocation: true

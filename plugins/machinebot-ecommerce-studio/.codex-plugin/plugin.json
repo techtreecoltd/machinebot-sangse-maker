@@ -1,6 +1,6 @@
 {
   "name": "machinebot-ecommerce-studio",
-  "version": "1.14.0",
+  "version": "1.15.0",
   "description": "짧은 질의응답으로 필요한 제작 타입을 추천하고, 선택한 판매 이미지를 근거 있는 소구·장면으로 기획·생성·검수합니다.",
   "author": {
     "name": "김머신"

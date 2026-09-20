@@ -1,6 +1,6 @@
 # 시작 질의응답과 제작 연결
 
-사용자가 무엇을 만들지 결정하도록 돕고, 선택한 범위의 기존 제작 절차에 연결한다. 누끼는 [독립 스킬](../../machinebot-product-cutout/SKILL.md)로 실행하며 연출은 [독립 연출 스킬](../../machinebot-lifestyle/SKILL.md), 상세페이지·현지화는 [독립 상세페이지](../../machinebot-detail-page/SKILL.md), 썸네일은 [독립 썸네일](../../machinebot-thumbnail/SKILL.md), 나머지는 상위 `SKILL.md`를 따른다. [제품 기록](product-context.md)을 작업 간 이어 쓴다.
+사용자가 무엇을 만들지 결정하도록 돕고, 선택한 범위의 기존 제작 절차에 연결한다. 누끼는 [독립 스킬](../../machinebot-product-cutout/SKILL.md)로 실행하며 연출은 [독립 연출 스킬](../../machinebot-lifestyle/SKILL.md), 상세페이지·현지화는 [독립 상세페이지](../../machinebot-detail-page/SKILL.md), 썸네일은 [독립 썸네일](../../machinebot-thumbnail/SKILL.md), 효용은 [독립 효용](../../machinebot-benefit-visual/SKILL.md), 나머지는 상위 `SKILL.md`를 따른다. [제품 기록](product-context.md)을 작업 간 이어 쓴다.
 
 ## 1. 진입 판별
 
