@@ -217,6 +217,141 @@
       "sha256": "e2dfbdee467784f4c664607e44227aa421ee2e8567e982a86ac22b1a636ed6e8",
       "stage": "execute",
       "recorded_at": "2026-09-20T22:58:15.290Z"
+    },
+    {
+      "id": "ev-025",
+      "kind": "s7-implementation",
+      "result": "pass",
+      "path": "validation/release-1.16.3-validation.md",
+      "sha256": "7a72c576eb201c815397ce65f5610fb79c4fb81adeba6f68c4ff2f0a2101f27d",
+      "stage": "execute",
+      "recorded_at": "2026-09-21T00:03:14.633Z"
+    },
+    {
+      "id": "ev-026",
+      "kind": "s7-package",
+      "result": "fail",
+      "path": "output/harness-demo-20260921/package-manifest.json",
+      "sha256": "2f4e3f47bec04027035295903503f1020c291262690fa18e036316e88c9dbeb2",
+      "stage": "execute",
+      "recorded_at": "2026-09-21T00:03:14.633Z"
+    },
+    {
+      "id": "ev-027",
+      "kind": "s7-evidence",
+      "result": "pass",
+      "path": ".machine-code/evidence/s7-package-1.16.3.md",
+      "sha256": "5b979c1d572a9e8337feb47330049c4d6e083e24aba4d1e203d1bbaa973d6ea0",
+      "stage": "execute",
+      "recorded_at": "2026-09-21T00:03:14.633Z"
+    },
+    {
+      "id": "ev-028",
+      "kind": "s8-implementation",
+      "result": "pass",
+      "path": "validation/release-1.16.6-validation.md",
+      "sha256": "a48df834a58e9988e330925e91cc3b04e83300f3d9bbffc951f23d781a0fe5a0",
+      "stage": "execute",
+      "recorded_at": "2026-09-21T00:03:14.633Z"
+    },
+    {
+      "id": "ev-029",
+      "kind": "s8-critic",
+      "result": "pass",
+      "path": "validation/critic-s8.md",
+      "sha256": "accacef23111383644cc4cb9b07a919469743472c469282e66544afe058d4254",
+      "stage": "execute",
+      "recorded_at": "2026-09-21T00:03:14.633Z"
+    },
+    {
+      "id": "ev-030",
+      "kind": "s8-evidence",
+      "result": "pass",
+      "path": ".machine-code/evidence/s8-cg-visualization-1.16.6.md",
+      "sha256": "75943dbbf36dff9da81474766d0d413d527b962062d0e247c25d4d33d38f8661",
+      "stage": "execute",
+      "recorded_at": "2026-09-21T00:03:14.633Z"
+    },
+    {
+      "id": "ev-031",
+      "kind": "final-critic",
+      "result": "fail",
+      "path": "validation/final-project-critic.md",
+      "sha256": "9c2531dd4d6dcf567f0e79d306443d4e4c02593c9713196011bef93711ba30ec",
+      "stage": "critic",
+      "recorded_at": "2026-09-21T00:23:54.617Z"
+    },
+    {
+      "id": "ev-032",
+      "kind": "s2-cutout",
+      "result": "fail",
+      "path": "validation/release-1.11.0-validation.md",
+      "sha256": "766e7832bdfedb163504dd4aeed7e00c1f43120e14428c191db830394e97bcff",
+      "stage": "critic",
+      "recorded_at": "2026-09-21T00:23:54.617Z"
+    },
+    {
+      "id": "ev-033",
+      "kind": "s7-package",
+      "result": "fail",
+      "path": "output/harness-demo-20260921/package-manifest.json",
+      "sha256": "2f4e3f47bec04027035295903503f1020c291262690fa18e036316e88c9dbeb2",
+      "stage": "critic",
+      "recorded_at": "2026-09-21T00:23:54.617Z"
+    },
+    {
+      "id": "ev-034",
+      "kind": "s8-critic",
+      "result": "pass",
+      "path": "validation/critic-s8.md",
+      "sha256": "accacef23111383644cc4cb9b07a919469743472c469282e66544afe058d4254",
+      "stage": "critic",
+      "recorded_at": "2026-09-21T00:23:54.617Z"
+    },
+    {
+      "id": "ev-035",
+      "kind": "plan",
+      "result": "pass",
+      "path": ".machine-code/plan.md",
+      "sha256": "f57b7a786076a7c2f7b4ff64dd9f8e41547e4d72fabe81be0729bab00c7df0a9",
+      "stage": "critic",
+      "recorded_at": "2026-09-21T00:28:01.925Z"
+    },
+    {
+      "id": "ev-036",
+      "kind": "implementation",
+      "result": "pass",
+      "path": ".machine-code/evidence/final-implementation-20260921.md",
+      "sha256": "73ce75450756c7dd95d30b79341ebe32bb747913725f13a576027210f4c2efa5",
+      "stage": "critic",
+      "recorded_at": "2026-09-21T00:28:01.925Z"
+    },
+    {
+      "id": "ev-037",
+      "kind": "critic",
+      "result": "fail",
+      "path": "validation/final-project-critic.md",
+      "sha256": "9c2531dd4d6dcf567f0e79d306443d4e4c02593c9713196011bef93711ba30ec",
+      "stage": "critic",
+      "recorded_at": "2026-09-21T00:28:01.925Z"
+    },
+    {
+      "id": "ev-038",
+      "kind": "verification",
+      "result": "fail",
+      "path": ".machine-code/evidence/final-verification-20260921.md",
+      "sha256": "71b9bc72a0c0a36ce3281a49fe2d149d1838727ad28993bb63d77496d313c7dd",
+      "stage": "critic",
+      "recorded_at": "2026-09-21T00:28:01.925Z"
+    },
+    {
+      "id": "ev-039",
+      "kind": "handoff",
+      "result": "unknown",
+      "path": ".machine-code/evidence/final-handoff-20260921.md",
+      "sha256": "c4d503784c24bfcc60ca346bd1c7ba0600dc2ea7c6e379b0a6da93244cc944a3",
+      "stage": "critic",
+      "recorded_at": "2026-09-21T00:28:01.925Z"
     }
   ]
 }

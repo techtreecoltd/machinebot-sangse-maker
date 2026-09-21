@@ -7,8 +7,8 @@
 ## Profile and state
 
 - Profile: project
-- Current stage: execute
-- Next action: Run a fresh read-only completion critic and checkpoint its evidence.
+- Current stage: critic
+- Next action: Return to execute and resolve the failed or unknown critic findings.
 
 ## Checkpoints
 
@@ -25,6 +25,9 @@
 - execute: S4 independent detail/localization and six actual 1080x2160 panels pass bounded critic; seven host calls and FAQ verified. Continue S5; S2 colour gate open. (2026-09-20T22:36:34.176Z)
 - execute: S5 thumbnail skill and six actual synthetic thumbnails pass after critic-found appeal mapping correction; package checks pass. Continue S6 benefit visual skill. (2026-09-20T22:47:28.400Z)
 - execute: S6 benefit skill and three actual synthetic visualizations pass bounded critic; unsupported effects blocked and source/appeal closure verified. Continue S7 package integration. (2026-09-20T22:58:15.290Z)
+- execute: S7 package integration and S8 CG visualization catalog completed. Downstream assets and CG synthetic fixtures pass bounded checks, while the overall package remains blocked by the S2 cutout colour-fidelity failure. (2026-09-21T00:03:14.633Z)
+- critic: Fresh read-only project audit completed. S1 routing, serial Machine Code work, pushes, downstream fixtures, and S8 CG catalog pass bounded checks. Overall project FAIL because cutout-final fails original colour fidelity, package manifest remains incomplete, and real product efficacy is unknown. (2026-09-21T00:23:54.617Z)
+- critic: Final audit evidence is recorded. Source implementation and bounded validations pass, but the independent project critic remains FAIL due the unresolved cutout colour-fidelity gate; verification and handoff remain blocked pending user decision. (2026-09-21T00:28:01.925Z)
 
 ## Evidence
 
@@ -52,6 +55,21 @@
 - s5-critic: pass — `validation/critic-s5-final.md`
 - s6-implementation: pass — `validation/release-1.15.0-validation.md`
 - s6-critic: pass — `validation/critic-s6.md`
+- s7-implementation: pass — `validation/release-1.16.3-validation.md`
+- s7-package: fail — `output/harness-demo-20260921/package-manifest.json`
+- s7-evidence: pass — `.machine-code/evidence/s7-package-1.16.3.md`
+- s8-implementation: pass — `validation/release-1.16.6-validation.md`
+- s8-critic: pass — `validation/critic-s8.md`
+- s8-evidence: pass — `.machine-code/evidence/s8-cg-visualization-1.16.6.md`
+- final-critic: fail — `validation/final-project-critic.md`
+- s2-cutout: fail — `validation/release-1.11.0-validation.md`
+- s7-package: fail — `output/harness-demo-20260921/package-manifest.json`
+- s8-critic: pass — `validation/critic-s8.md`
+- plan: pass — `.machine-code/plan.md`
+- implementation: pass — `.machine-code/evidence/final-implementation-20260921.md`
+- critic: fail — `validation/final-project-critic.md`
+- verification: fail — `.machine-code/evidence/final-verification-20260921.md`
+- handoff: unknown — `.machine-code/evidence/final-handoff-20260921.md`
 
 ## Resume contract
 
