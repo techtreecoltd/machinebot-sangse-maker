@@ -7,8 +7,8 @@
 ## Profile and state
 
 - Profile: project
-- Current stage: critic
-- Next action: Return to execute and resolve the failed or unknown critic findings.
+- Current stage: verify
+- Next action: Generate the session handoff, then checkpoint handoff evidence.
 
 ## Checkpoints
 
@@ -34,6 +34,8 @@
 - execute: S10 approved: purchase-decision FAQ through intake, planning, generation, review and release. Preserve prior full-project failures; bounded 1.19.0 plan recorded. (2026-09-22T10:47:58.259Z)
 - execute: S10 implementation and bounded verification complete for purchase-decision FAQ. Current 1.19.1 package, synthetic visual/mobile receipts, tests, and source/extraction validation pass. Independent critic recorded the implementation rows pass but the broader project remains blocked by historical failures and the audit bookkeeping gate. (2026-09-22T11:39:50.673Z)
 - critic: Fresh independent FAQ audit recorded. Implementation/package rows pass; audit bookkeeping row failed because the final receipt was created after the audit. Historical whole-project failures remain open and are not overwritten. (2026-09-22T11:40:18.068Z)
+- critic: User clarified that the current cutout contract is an opaque white-background studio mastercut with distinct angles, neutral light, contact shadow, and identity preservation. The historical transparent-PNG S2 colour-fidelity failure is preserved but resolved as obsolete by S9; remaining whole-project blocker is S7 package-manifest plus fresh whole-project critic. (2026-09-22T12:50:05.759Z)
+- verify: Verified the corrected S2 current contract against source and S9 evidence: opaque white-background studio mastercuts with distinct angles, preserved identity, neutral lighting and contact shadows. Source/extracted plugin validation and 13 regression tests pass. Full project remains open at S7 package-manifest and whole-project handoff. (2026-09-22T12:52:50.840Z)
 
 ## Evidence
 
@@ -90,14 +92,8 @@
 - package: pass — `validation/package-1.19.1.json`
 - critic: fail — `validation/critic-faq-1.19.1.md`
 - critic: fail — `validation/critic-faq-1.19.1.md`
-
-## S10 bounded result — purchase-decision FAQ
-
-- Implementation scope is complete: FAQ purchase-barrier contract, bounded Q&A route, cross-route wiring, information-dense visual defaults, mobile review, synthetic fixture, and 1.19.1 release package.
-- Current release evidence: `validation/faq-forward-1.19.1.md`, `validation/faq-visual-1.19.1.md`, `validation/package-1.19.1.json`, `validation/package-links-1.19.1.txt`, and `validation/critic-faq-1.19.1.md`.
-- `1.19.1` package SHA-256: `3244c7c539bf1125c196c5608e4f5a5e30ae98d4258a16d9d9bcd1b5a1d31104`.
-- The independent critic found all implementation and package rows passing; its single failure was the completion-evidence bookkeeping state at audit time. That raw result is retained. The broader project remains not ready because historical S2 colour-fidelity, S7 package-manifest, and whole-project critic failures remain open.
-- Next action for the broader project: resolve or explicitly close those historical failures, then run a fresh whole-project critic. Do not claim the whole project complete from S10.
+- critic: pass — `validation/s2-contract-resolution-1.19.1.md`
+- verification: pass — `validation/s2-contract-resolution-checks-1.19.1.txt`
 
 ## Resume contract
 

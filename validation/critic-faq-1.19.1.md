@@ -19,4 +19,4 @@ Scope: bounded S10 purchase-decision FAQ harness and 1.19.1 release
 
 The independent critic verified the implementation, synthetic final/mobile images, and current 1.19.1 package. Its only failure was bookkeeping: this artifact and final Machine Code verify/handoff evidence did not yet exist when it ran. The raw intermediate result is preserved in `critic-faq-1.19.1-initial.md`; this file records the final audit output accurately and does not turn the historical whole-project state into complete.
 
-The bounded implementation itself is ready. The broader Machine Code project remains `ready: false` because prior S2 colour-fidelity, S7 package-manifest, and whole-project critic failures remain open by design.
+The bounded implementation itself is ready. The broader Machine Code project remains `ready: false` because the historical S7 package-manifest and whole-project critic failures remain open. The earlier S2 colour-fidelity result belonged to the superseded transparent-PNG interpretation and is resolved for the current white-studio mastercut contract by S9; its historical receipt remains unchanged.

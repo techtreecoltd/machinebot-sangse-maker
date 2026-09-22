@@ -1,0 +1,8 @@
+S2 current contract resolution checks — 1.19.1
+
+- Current source contract: machinebot-product-cutout/SKILL.md and references/studio-product-shots.md specify opaque white-background studio mastercuts; transparent PNG is an additional request.
+- Historical resolution: validation/release-1.17.1-validation.md and validation/critic-s9-final.md record three directly inspected synthetic studio shots with preserved product identity, distinct views, white background, lighting, and contact shadows.
+- Source plugin validation: PASS.
+- Extracted 1.19.1 plugin validation: PASS.
+- Regression tests: python -m unittest discover -s validation -p 'test_*.py' -q — 13 tests passed.
+- Full-project Machine Code verify remains not ready because S7 package-manifest and whole-project handoff work remain open.

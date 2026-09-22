@@ -8,5 +8,5 @@
 - 실행 테스트: `python -m unittest discover -s validation -p 'test_*.py' -q` — 13 tests passed
 - `pytest`는 현재 Python 환경에 설치되지 않아 사용하지 않음
 - 독립 완료 감사: `validation/critic-faq-1.19.1.md` — implementation/package rows pass; audit bookkeeping row failed because this receipt was created immediately after the read-only audit
-- Historical project state: broader Machine Code `verify` remains not ready by design; prior S2/S7/whole-project failures are not overwritten by this bounded S10 result
+- Historical project state: the old transparent-PNG S2 failure is resolved for the current white-studio contract by S9; prior S7 package-manifest and whole-project critic failures remain open and are not overwritten by this bounded S10 result
 
