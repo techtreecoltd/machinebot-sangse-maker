@@ -12,5 +12,8 @@
 | S6 | codex/s6-benefit | b9b8ce081a2b012a0052bfe92c33e8b766eb7144 | push 성공 후 ls-remote 일치; 효용 3장 직접 검수 |
 | S7 | codex/s7-package | d1dee3324d622bcbb46ff2b86ee56658d2848caa | push 성공 후 ls-remote 일치; 1.16.3 패키지 게이트·부분 manifest·독립 크리틱 진행 |
 | S8 | codex/s8-cg-visualization | 9cc15f9cd0a52f9fc3a6f6cd36675128f60e1d66 | CG 판단 카탈로그·실제 합성 fixture·독립 크리틱 완료 후 원격 브랜치 확인 |
+| S9 | codex/s9-studio-cutout 및 main | feddd5e89c2e2bdad48de797278aa7e1228f4e29 | 1.17.1 원본·배포본·13개 테스트·합성 3각도 독립 검토 후 atomic fast-forward push 성공, 두 원격 ref의 ls-remote 일치 |
+
+S9 구현 커밋의 main 반영은 2026-09-22 확인했다. critic-s9-final.md의 `main push pending`은 감사 시점의 상태이며 위 실제 푸시로 해소했다. 이 기록을 추가한 후속 커밋은 제품 코드를 바꾸지 않는다. 과거 전체 프로젝트 미완료 판정과 구분한다.
 
 생성 결과·고객 자료는 로컬 output/에 보관한다. Git에는 플러그인 소스·배포 ZIP·검증 기록을 올린다.

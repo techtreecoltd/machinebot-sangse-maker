@@ -30,6 +30,7 @@
 - critic: Final audit evidence is recorded. Source implementation and bounded validations pass, but the independent project critic remains FAIL due the unresolved cutout colour-fidelity gate; verification and handoff remain blocked pending user decision. (2026-09-21T00:28:01.925Z)
 - execute: S9: user clarified white studio multi-angle product shots; corrected cutout contract, docs and 1.17.1 package. Five image attempts yielded three distinct final synthetic shots; two redundant views excluded. Historical full package remains separately incomplete. (2026-09-22T01:04:35.981Z)
 - execute: S9 independent audit passes corrected studio contract, 3 distinct synthetic shots and release 1.17.1. Commit and authorized main push next. Historical S7 manifest and whole-project critic remain separately incomplete; no full completion claim. (2026-09-22T01:08:26.344Z)
+- execute: S9 complete in its bounded scope: white studio cutout semantics, 3 distinct final synthetic examples, 1.17.1 checks and independent audit, and feddd5e confirmed on main and S9 branch. Whole project still needs historical S7 package reintegration and a fresh full audit; do not mark it complete. (2026-09-22T01:09:10.773Z)
 
 ## Evidence
 
@@ -79,6 +80,7 @@
 - plan: pass — `.machine-code/plan.md`
 - s9-critic: pass — `validation/critic-s9-final.md`
 - s9-assets: pass — `validation/studio-assets-1.17.1.json`
+- s9-main-push: pass — `.machine-code/evidence/s9-main-push.md`
 
 ## Resume contract
 
