@@ -46,3 +46,5 @@
 썸네일은 메인 한 장도 plans.scope 또는 연결된 제작 기록에 구매 질문, 표현 선택/대안 이유, 자료별 역할과 실제 입력/제외, 정확 카피 또는 없음의 이유, 채널 확인 상태를 남긴다. 기존 schema_version 1을 유지하며 새 파일/필드를 필수 계약으로 강제하지 않는다. 실제 검수 note는 이 방향이 결과에 보이는지 설명한다.
 
 plans에는 선택한 구성의 id, scope, status(proposed/approved/stale), approval_evidence, slots를 둔다. 슬롯은 id, kind, asset_id(null이면 미제작)이며 상세페이지는 마지막 슬롯 role=faq를 명시한다. 정확 수량과 문구·장면 계획은 scope에 보존한다. 실제 승인 전 approved나 승인 증거를 발명하지 않는다. 패키지 구성 승인에 상세 패널 구성도 포함됐다면 별도 승인을 반복하지 않는다.
+
+FAQ는 [구매 결정형 FAQ](purchase-decision-faq.md)의 구매 장벽·질문/정확 답변·조건·근거 ID·새 판단 정보·스타일·미해결 사실을 plans.scope 또는 연결된 제작 기록에 남긴다. 부분 FAQ 요청은 전체 상세/패키지 계획과 구분해 그 한 슬롯만 기록한다. review.note는 구매 결정 도움·근거·정보 진전·위계·문자/모바일·규격의 실제 판정과 미검증 항목을 담는다. 기존 schema_version 1을 유지하며 구조 검사 통과를 의미/시각 검수 통과로 해석하지 않는다.

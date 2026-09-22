@@ -1,6 +1,6 @@
 interface:
   display_name: "김머신 상세페이지"
-  short_description: "제품 근거와 한국어 카피를 연결한 6·8·10장 상세페이지 제작"
-  default_prompt: "$machinebot-detail-page 이 제품 자료로 6장 상세페이지 구성을 제안하고 승인 후 제작해 줘."
+  short_description: "제품 근거와 구매 결정형 FAQ를 연결한 6·8·10장 상세페이지·부분 패널 제작"
+  default_prompt: "$machinebot-detail-page 이 제품 자료로 구매 전 남은 질문에 답하는 정보 중심 FAQ 패널을 구성하고 제작해 줘."
 policy:
   allow_implicit_invocation: true

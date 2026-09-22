@@ -7,8 +7,8 @@
 ## Profile and state
 
 - Profile: project
-- Current stage: execute
-- Next action: Run a fresh read-only completion critic and checkpoint its evidence.
+- Current stage: critic
+- Next action: Return to execute and resolve the failed or unknown critic findings.
 
 ## Checkpoints
 
@@ -31,6 +31,9 @@
 - execute: S9: user clarified white studio multi-angle product shots; corrected cutout contract, docs and 1.17.1 package. Five image attempts yielded three distinct final synthetic shots; two redundant views excluded. Historical full package remains separately incomplete. (2026-09-22T01:04:35.981Z)
 - execute: S9 independent audit passes corrected studio contract, 3 distinct synthetic shots and release 1.17.1. Commit and authorized main push next. Historical S7 manifest and whole-project critic remain separately incomplete; no full completion claim. (2026-09-22T01:08:26.344Z)
 - execute: S9 complete in its bounded scope: white studio cutout semantics, 3 distinct final synthetic examples, 1.17.1 checks and independent audit, and feddd5e confirmed on main and S9 branch. Whole project still needs historical S7 package reintegration and a fresh full audit; do not mark it complete. (2026-09-22T01:09:10.773Z)
+- execute: S10 approved: purchase-decision FAQ through intake, planning, generation, review and release. Preserve prior full-project failures; bounded 1.19.0 plan recorded. (2026-09-22T10:47:58.259Z)
+- execute: S10 implementation and bounded verification complete for purchase-decision FAQ. Current 1.19.1 package, synthetic visual/mobile receipts, tests, and source/extraction validation pass. Independent critic recorded the implementation rows pass but the broader project remains blocked by historical failures and the audit bookkeeping gate. (2026-09-22T11:39:50.673Z)
+- critic: Fresh independent FAQ audit recorded. Implementation/package rows pass; audit bookkeeping row failed because the final receipt was created after the audit. Historical whole-project failures remain open and are not overwritten. (2026-09-22T11:40:18.068Z)
 
 ## Evidence
 
@@ -81,6 +84,20 @@
 - s9-critic: pass — `validation/critic-s9-final.md`
 - s9-assets: pass — `validation/studio-assets-1.17.1.json`
 - s9-main-push: pass — `.machine-code/evidence/s9-main-push.md`
+- plan: pass — `.machine-code/plan.md`
+- implementation: pass — `.machine-code/evidence/s10-implementation.md`
+- verification: pass — `.machine-code/evidence/s10-verification.md`
+- package: pass — `validation/package-1.19.1.json`
+- critic: fail — `validation/critic-faq-1.19.1.md`
+- critic: fail — `validation/critic-faq-1.19.1.md`
+
+## S10 bounded result — purchase-decision FAQ
+
+- Implementation scope is complete: FAQ purchase-barrier contract, bounded Q&A route, cross-route wiring, information-dense visual defaults, mobile review, synthetic fixture, and 1.19.1 release package.
+- Current release evidence: `validation/faq-forward-1.19.1.md`, `validation/faq-visual-1.19.1.md`, `validation/package-1.19.1.json`, `validation/package-links-1.19.1.txt`, and `validation/critic-faq-1.19.1.md`.
+- `1.19.1` package SHA-256: `3244c7c539bf1125c196c5608e4f5a5e30ae98d4258a16d9d9bcd1b5a1d31104`.
+- The independent critic found all implementation and package rows passing; its single failure was the completion-evidence bookkeeping state at audit time. That raw result is retained. The broader project remains not ready because historical S2 colour-fidelity, S7 package-manifest, and whole-project critic failures remain open.
+- Next action for the broader project: resolve or explicitly close those historical failures, then run a fresh whole-project critic. Do not claim the whole project complete from S10.
 
 ## Resume contract
 

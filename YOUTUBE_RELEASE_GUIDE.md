@@ -2,7 +2,7 @@
 
 ## 공유할 파일
 
-최종 배포 파일은 `dist/machinebot-ecommerce-studio-1.18.0.zip`이다. 압축을 풀면 독립 사용 안내 `README.md`, `.codex-plugin/plugin.json`, `assets/`, `skills/machinebot-ecommerce-studio/`가 들어 있는 스킬 전용 플러그인 폴더가 나온다.
+최종 배포 파일은 `dist/machinebot-ecommerce-studio-1.19.1.zip`이다. 압축을 풀면 독립 사용 안내 `README.md`, `.codex-plugin/plugin.json`, `assets/`, `skills/machinebot-ecommerce-studio/`가 들어 있는 스킬 전용 플러그인 폴더가 나온다.
 
 프로젝트의 가치, 지원 범위, 작동 흐름을 먼저 소개하려면 루트 `README.md`를 사용한다. 영상 설명란에는 저장소 링크와 함께 현재 버전 ZIP이 로컬 검수·공유용이라는 점을 적는다.
 
@@ -53,7 +53,7 @@
 
 연출·실사용컷을 machinebot-lifestyle로 분리하고 원본·검수 자산을 재사용한다. 단독 연출은 상세페이지로 자동 확장하지 않는다.
 
-상세페이지와 외국어 현지화를 machinebot-detail-page로 분리했다. 독립 자산 세트의 의무 생성 없이 구성 승인·6/8/10장·마지막 FAQ·패널 동시 렌더링을 유지한다.
+상세페이지와 외국어 현지화를 machinebot-detail-page로 분리했다. 독립 자산 세트의 의무 생성 없이 구성 승인·6/8/10장·마지막 구매 결정형 FAQ·패널 동시 렌더링을 유지한다. FAQ 한 장 요청은 구매 장벽 중심 부분 제작으로 직행한다.
 
 메인·서브 썸네일을 machinebot-thumbnail로 분리했다. 기본 6~8장과 명시 수량·규격, 채널 규정 확인 범위, 독립 납품을 유지한다.
 

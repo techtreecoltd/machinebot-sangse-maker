@@ -1,0 +1,7 @@
+Package link receipt — 1.19.1
+
+Source and extracted package markdown links were checked by scripts/package_plugin.py.
+Result: PASS
+Source markdown files checked: 39-file source package, all relative targets resolved.
+Extracted markdown files checked: 39-file package-check-1.19.1 extraction, all relative targets resolved.
+The same run also passed skill validators, plugin validator, ZIP CRC, source/extraction byte equality, and SHA-256 generation.

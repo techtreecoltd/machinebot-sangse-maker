@@ -137,6 +137,7 @@ Before the final response, always check:
 - 상세페이지 패널 구조: `plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/detail-page-blueprint.md`
 - 소구·고객 가치·장면 시각화: `plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/sales-visual-strategy.md`
 - 이미지 제작 절차: `plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/image-production.md`
+- 구매 결정형 FAQ: `plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/purchase-decision-faq.md`
 - 검수 기준: `plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/quality-gates.md`
 - 행동 검증: `validation/behavior-evaluation.md`
 
@@ -184,6 +185,7 @@ Before the final response, always check:
 | 트리거·대화 흐름 | `SKILL.md`, `agents/openai.yaml`, `validation/behavior-evaluation.md` |
 | 분기·수량 | `branches.md`, `README.md`, 플러그인 `README.md` |
 | 상세페이지 규격 | `detail-page-blueprint.md`, `image-production.md`, `quality-gates.md`, 행동 검증 |
+| 구매 결정형 FAQ | `purchase-decision-faq.md`, `detail-page-blueprint.md`, `image-production.md`, `quality-gates.md`, 행동 검증 |
 | 이미지 제작 방법 | `image-production.md`, `quality-gates.md`, `SKILL.md` |
 | 세일즈 포인트·장점·필요 상황 시각화 | `sales-visual-strategy.md`, `detail-page-blueprint.md`, `image-production.md`, `quality-gates.md`, `SKILL.md`, 행동 검증 |
 | 외국어 상세페이지 현지화 | `source-detail-localization.md`, `image-production.md`, `quality-gates.md`, `SKILL.md`, 행동 검증 |

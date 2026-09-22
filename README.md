@@ -23,7 +23,7 @@
 
 사용자가 결과물 종류를 아직 정하지 못했다면 목적·보유 자료·이번 범위에서 부족한 정보만 기본 1~3개 질문하고, 전체 패키지를 포함해 총 2~3개 제작 타입을 제안합니다. 각 추천에는 이유·산출물·필요한 추가 자료를 붙입니다. 사용자가 하나를 고르면 제품 정체성과 사실 정보를 이어 받아 선택한 결과물을 제작하고 검수합니다. 이미 타입을 지정했다면 바로 해당 제작으로 진행합니다.
 
-**현재 버전: 1.18.0.** 시작 질의응답·타입 추천·명시 요청 직행을 보강했습니다. 제작에서는 제품 장점과 고객 가치를 근거 있는 장면으로 연결하고, 사진만으로 보이지 않는 차단·흐름·재질·접촉 부위·구조는 CG 판단 카탈로그를 거쳐 연출·효용·상세에 반영합니다. 제품 누끼는 투명 배경 추출물이 아니라 흰색 스튜디오 제품 마스터컷으로 독립 실행하며, 확인 가능한 여러 각도·전문 조명·접지 그림자와 원본·자산 기록을 인계합니다.
+**현재 버전: 1.19.1.** 시작 질의응답·타입 추천·명시 요청 직행을 보강하고, 상세페이지 FAQ를 구매 직전 장벽을 해소하는 질문·답변·근거와 정보 중심 레이아웃으로 설계합니다. 제작에서는 제품 장점과 고객 가치를 근거 있는 장면으로 연결하고, 사진만으로 보이지 않는 차단·흐름·재질·접촉 부위·구조는 CG 판단 카탈로그를 거쳐 연출·효용·상세에 반영합니다. 제품 누끼는 투명 배경 추출물이 아니라 흰색 스튜디오 제품 마스터컷으로 독립 실행하며, 확인 가능한 여러 각도·전문 조명·접지 그림자와 원본·자산 기록을 인계합니다.
 
 ## 어떤 가치를 제공하나
 
@@ -48,7 +48,7 @@
 | 상세페이지 이미지 | 6·8·10장, 기본 1080 × 2160px | 한국어 카피와 구매 설득 흐름을 세로 패널로 완성할 때 |
 | 전체 이미지 패키지 | 라이트 또는 풀 세트 | 신규 출시·리뉴얼용 판매 이미지 전체가 필요할 때 |
 
-상세페이지는 패널당 세로 2000px 이상을 기본으로 하며, 마지막 패널에는 제공된 사실만으로 구성한 FAQ를 둡니다.
+상세페이지는 패널당 세로 2000px 이상을 기본으로 하며, 마지막 패널에는 제공된 사실만으로 구성한 구매 결정형 FAQ를 둡니다. FAQ 한 장만 요청하면 전체 상세페이지로 확장하지 않습니다.
 
 ## 어떻게 작동하나
 
@@ -100,7 +100,7 @@ $machinebot-ecommerce-studio 이 제품의 누끼, 썸네일, 연출컷,
 
 > **현재 배포 상태**
 >
-> [`dist/machinebot-ecommerce-studio-1.18.0.zip`](./dist/machinebot-ecommerce-studio-1.18.0.zip)은 소스 검수와 로컬 설치 테스트, 영상 공유를 위한 배포본입니다. [SHA-256](./dist/machinebot-ecommerce-studio-1.18.0.zip.sha256)으로 파일을 확인할 수 있습니다. ChatGPT Work의 공개 플러그인 목록에 노출하려면 별도의 universal plugin directory 제출과 승인이 필요합니다.
+> [`dist/machinebot-ecommerce-studio-1.19.1.zip`](./dist/machinebot-ecommerce-studio-1.19.1.zip)은 소스 검수와 로컬 설치 테스트, 영상 공유를 위한 배포본입니다. [SHA-256](./dist/machinebot-ecommerce-studio-1.19.1.zip.sha256)으로 파일을 확인할 수 있습니다. ChatGPT Work의 공개 플러그인 목록에 노출하려면 별도의 universal plugin directory 제출과 승인이 필요합니다.
 
 ## 설계 원칙
 
@@ -146,6 +146,7 @@ $machinebot-ecommerce-studio 이 제품의 누끼, 썸네일, 연출컷,
 - 구매 이유와 장점·상황 시각화: [`sales-visual-strategy.md`](./plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/sales-visual-strategy.md)
 - 6·8·10장 상세 구성: [`detail-page-blueprint.md`](./plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/detail-page-blueprint.md)
 - 참조 이미지와 생성 절차: [`image-production.md`](./plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/image-production.md)
+- 구매 결정형 FAQ: [`purchase-decision-faq.md`](./plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/purchase-decision-faq.md)
 - 외국어 상세페이지 현지화: [`source-detail-localization.md`](./plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/source-detail-localization.md)
 - 최종 검수: [`quality-gates.md`](./plugins/machinebot-ecommerce-studio/skills/machinebot-ecommerce-studio/references/quality-gates.md)
 - 설계 근거와 범위 결정: [`validation/design-notes.md`](./validation/design-notes.md)
@@ -169,7 +170,7 @@ $machinebot-ecommerce-studio 이 제품의 누끼, 썸네일, 연출컷,
 
 연출·실사용컷을 machinebot-lifestyle로 분리하고 원본·검수 자산을 재사용한다. 단독 연출은 상세페이지로 자동 확장하지 않는다.
 
-상세페이지와 외국어 현지화를 machinebot-detail-page로 분리했다. 독립 자산 세트의 의무 생성 없이 구성 승인·6/8/10장·마지막 FAQ·패널 동시 렌더링을 유지한다.
+상세페이지와 외국어 현지화를 machinebot-detail-page로 분리했다. 독립 자산 세트의 의무 생성 없이 구성 승인·6/8/10장·마지막 구매 결정형 FAQ·패널 동시 렌더링을 유지한다. FAQ 한 장 요청은 정보 중심 부분 제작으로 직행한다.
 
 메인·서브 썸네일을 machinebot-thumbnail로 분리했다. 기본 6~8장과 명시 수량·규격, 채널 규정 확인 범위, 독립 납품을 유지한다.
 

@@ -8,8 +8,8 @@
     "source": "codex-define-goal",
     "captured_at": "2026-09-20T21:14:10.385Z"
   },
-  "stage": "execute",
-  "next_action": "Run a fresh read-only completion critic and checkpoint its evidence.",
+  "stage": "critic",
+  "next_action": "Return to execute and resolve the failed or unknown critic findings.",
   "checkpoints": [
     {
       "id": "cp-001",
@@ -207,8 +207,38 @@
         "ev-047"
       ],
       "recorded_at": "2026-09-22T01:09:10.773Z"
+    },
+    {
+      "id": "cp-020",
+      "stage": "execute",
+      "summary": "S10 approved: purchase-decision FAQ through intake, planning, generation, review and release. Preserve prior full-project failures; bounded 1.19.0 plan recorded.",
+      "evidence_ids": [
+        "ev-048"
+      ],
+      "recorded_at": "2026-09-22T10:47:58.259Z"
+    },
+    {
+      "id": "cp-021",
+      "stage": "execute",
+      "summary": "S10 implementation and bounded verification complete for purchase-decision FAQ. Current 1.19.1 package, synthetic visual/mobile receipts, tests, and source/extraction validation pass. Independent critic recorded the implementation rows pass but the broader project remains blocked by historical failures and the audit bookkeeping gate.",
+      "evidence_ids": [
+        "ev-049",
+        "ev-050",
+        "ev-051",
+        "ev-052"
+      ],
+      "recorded_at": "2026-09-22T11:39:50.673Z"
+    },
+    {
+      "id": "cp-022",
+      "stage": "critic",
+      "summary": "Fresh independent FAQ audit recorded. Implementation/package rows pass; audit bookkeeping row failed because the final receipt was created after the audit. Historical whole-project failures remain open and are not overwritten.",
+      "evidence_ids": [
+        "ev-053"
+      ],
+      "recorded_at": "2026-09-22T11:40:18.068Z"
     }
   ],
   "created_at": "2026-09-20T21:14:10.385Z",
-  "updated_at": "2026-09-22T01:09:10.773Z"
+  "updated_at": "2026-09-22T11:40:18.068Z"
 }

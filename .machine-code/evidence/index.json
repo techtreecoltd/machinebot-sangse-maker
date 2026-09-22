@@ -424,6 +424,60 @@
       "sha256": "799c3cf7e44e8463f6b4a3558f2708320054adb7725c43ff9439186be3d97218",
       "stage": "execute",
       "recorded_at": "2026-09-22T01:09:10.773Z"
+    },
+    {
+      "id": "ev-048",
+      "kind": "plan",
+      "result": "pass",
+      "path": ".machine-code/plan.md",
+      "sha256": "e9dc0b0260749dc81281814118479b5acbf48c22ff77ade879bda2b4a7f06b60",
+      "stage": "execute",
+      "recorded_at": "2026-09-22T10:47:58.259Z"
+    },
+    {
+      "id": "ev-049",
+      "kind": "implementation",
+      "result": "pass",
+      "path": ".machine-code/evidence/s10-implementation.md",
+      "sha256": "f5650cc71517263a23ecbe25d87e43bf29cec7060c788ca1049d3894b6a5c023",
+      "stage": "execute",
+      "recorded_at": "2026-09-22T11:39:50.673Z"
+    },
+    {
+      "id": "ev-050",
+      "kind": "verification",
+      "result": "pass",
+      "path": ".machine-code/evidence/s10-verification.md",
+      "sha256": "48aa1057bf2164fc267ec7dee2f60f12052a99da2206a6a228b8337b0a42a7c9",
+      "stage": "execute",
+      "recorded_at": "2026-09-22T11:39:50.673Z"
+    },
+    {
+      "id": "ev-051",
+      "kind": "package",
+      "result": "pass",
+      "path": "validation/package-1.19.1.json",
+      "sha256": "3f9baba7cf9d386747e01da0ad31d1093681c15946d771d9ca1b9d3c7f1e0905",
+      "stage": "execute",
+      "recorded_at": "2026-09-22T11:39:50.673Z"
+    },
+    {
+      "id": "ev-052",
+      "kind": "critic",
+      "result": "fail",
+      "path": "validation/critic-faq-1.19.1.md",
+      "sha256": "672a54d8e2a237747c0bc4f540c65d90b68b23862108cda2d88ba0a466becb08",
+      "stage": "execute",
+      "recorded_at": "2026-09-22T11:39:50.673Z"
+    },
+    {
+      "id": "ev-053",
+      "kind": "critic",
+      "result": "fail",
+      "path": "validation/critic-faq-1.19.1.md",
+      "sha256": "672a54d8e2a237747c0bc4f540c65d90b68b23862108cda2d88ba0a466becb08",
+      "stage": "critic",
+      "recorded_at": "2026-09-22T11:40:18.068Z"
     }
   ]
 }
