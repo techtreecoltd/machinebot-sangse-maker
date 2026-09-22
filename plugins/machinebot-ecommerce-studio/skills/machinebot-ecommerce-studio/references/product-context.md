@@ -43,4 +43,6 @@
 
 선택적 읽기 전용 검사: `python <진입 스킬 경로>/scripts/validate_context.py <작업 폴더>/product-context.json`. 이 검사는 구조·파일·해시·인계를 확인할 뿐 시각 검수를 대신하지 않는다. Python이 없는 호스트에서는 위 항목을 가용 파일 도구로 확인하며 필수 런타임으로 설치를 요구하지 않는다.
 
+썸네일은 메인 한 장도 plans.scope 또는 연결된 제작 기록에 구매 질문, 표현 선택/대안 이유, 자료별 역할과 실제 입력/제외, 정확 카피 또는 없음의 이유, 채널 확인 상태를 남긴다. 기존 schema_version 1을 유지하며 새 파일/필드를 필수 계약으로 강제하지 않는다. 실제 검수 note는 이 방향이 결과에 보이는지 설명한다.
+
 plans에는 선택한 구성의 id, scope, status(proposed/approved/stale), approval_evidence, slots를 둔다. 슬롯은 id, kind, asset_id(null이면 미제작)이며 상세페이지는 마지막 슬롯 role=faq를 명시한다. 정확 수량과 문구·장면 계획은 scope에 보존한다. 실제 승인 전 approved나 승인 증거를 발명하지 않는다. 패키지 구성 승인에 상세 패널 구성도 포함됐다면 별도 승인을 반복하지 않는다.

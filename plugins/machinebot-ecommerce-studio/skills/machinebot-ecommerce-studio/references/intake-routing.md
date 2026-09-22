@@ -2,6 +2,8 @@
 
 사용자가 무엇을 만들지 결정하도록 돕고, 선택한 범위의 기존 제작 절차에 연결한다. 누끼는 [독립 스킬](../../machinebot-product-cutout/SKILL.md)로 실행하며 연출은 [독립 연출 스킬](../../machinebot-lifestyle/SKILL.md), 상세페이지·현지화는 [독립 상세페이지](../../machinebot-detail-page/SKILL.md), 썸네일은 [독립 썸네일](../../machinebot-thumbnail/SKILL.md), 효용은 [독립 효용](../../machinebot-benefit-visual/SKILL.md), 전체 패키지는 [패키지 연결](package-orchestration.md), 나머지는 상위 `SKILL.md`를 따른다. [제품 기록](product-context.md)을 작업 간 이어 쓴다.
 
+새 세션의 사용법 안내와 명시 요청은 [시작 안내](start-here.md)를 먼저 적용한다. 분기 선택은 납품 범위만 정한다. 모델·효용·흰 배경·문구 등 표현은 제공 자료와 구매 질문으로 별도 선택하며 썸네일 한 장도 생략하지 않는다.
+
 ## 1. 진입 판별
 
 | 사용자 상태 | 다음 행동 |
