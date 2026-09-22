@@ -8,8 +8,8 @@
     "source": "codex-define-goal",
     "captured_at": "2026-09-20T21:14:10.385Z"
   },
-  "stage": "critic",
-  "next_action": "Return to execute and resolve the failed or unknown critic findings.",
+  "stage": "execute",
+  "next_action": "Run a fresh read-only completion critic and checkpoint its evidence.",
   "checkpoints": [
     {
       "id": "cp-001",
@@ -175,8 +175,31 @@
         "ev-039"
       ],
       "recorded_at": "2026-09-21T00:28:01.925Z"
+    },
+    {
+      "id": "cp-017",
+      "stage": "execute",
+      "summary": "S9: user clarified white studio multi-angle product shots; corrected cutout contract, docs and 1.17.1 package. Five image attempts yielded three distinct final synthetic shots; two redundant views excluded. Historical full package remains separately incomplete.",
+      "evidence_ids": [
+        "ev-040",
+        "ev-041",
+        "ev-042",
+        "ev-043"
+      ],
+      "recorded_at": "2026-09-22T01:04:35.981Z"
+    },
+    {
+      "id": "cp-018",
+      "stage": "execute",
+      "summary": "S9 independent audit passes corrected studio contract, 3 distinct synthetic shots and release 1.17.1. Commit and authorized main push next. Historical S7 manifest and whole-project critic remain separately incomplete; no full completion claim.",
+      "evidence_ids": [
+        "ev-044",
+        "ev-045",
+        "ev-046"
+      ],
+      "recorded_at": "2026-09-22T01:08:26.344Z"
     }
   ],
   "created_at": "2026-09-20T21:14:10.385Z",
-  "updated_at": "2026-09-21T00:28:01.925Z"
+  "updated_at": "2026-09-22T01:08:26.344Z"
 }

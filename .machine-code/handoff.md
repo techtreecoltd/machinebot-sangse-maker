@@ -7,8 +7,8 @@
 ## Profile and state
 
 - Profile: project
-- Current stage: critic
-- Next action: Return to execute and resolve the failed or unknown critic findings.
+- Current stage: execute
+- Next action: Run a fresh read-only completion critic and checkpoint its evidence.
 
 ## Checkpoints
 
@@ -28,6 +28,8 @@
 - execute: S7 package integration and S8 CG visualization catalog completed. Downstream assets and CG synthetic fixtures pass bounded checks, while the overall package remains blocked by the S2 cutout colour-fidelity failure. (2026-09-21T00:03:14.633Z)
 - critic: Fresh read-only project audit completed. S1 routing, serial Machine Code work, pushes, downstream fixtures, and S8 CG catalog pass bounded checks. Overall project FAIL because cutout-final fails original colour fidelity, package manifest remains incomplete, and real product efficacy is unknown. (2026-09-21T00:23:54.617Z)
 - critic: Final audit evidence is recorded. Source implementation and bounded validations pass, but the independent project critic remains FAIL due the unresolved cutout colour-fidelity gate; verification and handoff remain blocked pending user decision. (2026-09-21T00:28:01.925Z)
+- execute: S9: user clarified white studio multi-angle product shots; corrected cutout contract, docs and 1.17.1 package. Five image attempts yielded three distinct final synthetic shots; two redundant views excluded. Historical full package remains separately incomplete. (2026-09-22T01:04:35.981Z)
+- execute: S9 independent audit passes corrected studio contract, 3 distinct synthetic shots and release 1.17.1. Commit and authorized main push next. Historical S7 manifest and whole-project critic remain separately incomplete; no full completion claim. (2026-09-22T01:08:26.344Z)
 
 ## Evidence
 
@@ -70,6 +72,13 @@
 - critic: fail — `validation/final-project-critic.md`
 - verification: fail — `.machine-code/evidence/final-verification-20260921.md`
 - handoff: unknown — `.machine-code/evidence/final-handoff-20260921.md`
+- plan: pass — `.machine-code/plan.md`
+- s9-implementation: pass — `validation/release-1.17.1-validation.md`
+- s9-verification: pass — `validation/s9-checks.txt`
+- s9-package: pass — `validation/package-1.17.1.json`
+- plan: pass — `.machine-code/plan.md`
+- s9-critic: pass — `validation/critic-s9-final.md`
+- s9-assets: pass — `validation/studio-assets-1.17.1.json`
 
 ## Resume contract
 

@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "fixture": "synthetic tray studio master shots",
+  "source": {
+    "path": "source/tray-reference.png",
+    "sha256": "04c980f39f34c541283b88882027dc780484aa4fa8fcab8b38eedd1a1c4d9811",
+    "role": "synthetic-reference"
+  },
+  "contract": {
+    "meaning": "누끼컷 = 흰색 스튜디오 제품 마스터컷",
+    "background": "opaque white",
+    "lighting": "neutral white balance, large softbox, soft contact shadow",
+    "angles": [
+      "front-three-quarter",
+      "front",
+      "top-down"
+    ]
+  },
+  "assets": [
+    {
+      "id": "studio-01-three-quarter",
+      "kind": "cutout",
+      "format": "white-background-studio-master",
+      "path": "final/studio-01-three-quarter.png",
+      "sha256": "53e133217c9f17da4be22c9aad29448bdeecce91538fc9ffe372c569ea995ff3",
+      "angle": "front-three-quarter",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "status": "pass",
+      "source_ids": [
+        "src-tray"
+      ],
+      "source_hashes": {
+        "src-tray": "04c980f39f34c541283b88882027dc780484aa4fa8fcab8b38eedd1a1c4d9811"
+      },
+      "variant": "slate-blue",
+      "review": {
+        "viewed": true,
+        "sha256": "53e133217c9f17da4be22c9aad29448bdeecce91538fc9ffe372c569ea995ff3",
+        "reviewer": "main Codex",
+        "note": "Direct view: opaque white studio, slate-blue rounded tray with 3 compartments, soft neutral lighting/contact shadow. Distinct front, three-quarter and true top-down views compared as a set. Synthetic fixture only."
+      }
+    },
+    {
+      "id": "studio-02-front",
+      "kind": "cutout",
+      "format": "white-background-studio-master",
+      "path": "final/studio-02-front.png",
+      "sha256": "4c15f8532bd34fb2653433a8658c8bdb299ae33cbc6797a0728d9276895fcba5",
+      "angle": "front",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "status": "pass",
+      "source_ids": [
+        "src-tray"
+      ],
+      "source_hashes": {
+        "src-tray": "04c980f39f34c541283b88882027dc780484aa4fa8fcab8b38eedd1a1c4d9811"
+      },
+      "variant": "slate-blue",
+      "review": {
+        "viewed": true,
+        "sha256": "4c15f8532bd34fb2653433a8658c8bdb299ae33cbc6797a0728d9276895fcba5",
+        "reviewer": "main Codex",
+        "note": "Direct view: opaque white studio, slate-blue rounded tray with 3 compartments, soft neutral lighting/contact shadow. Distinct front, three-quarter and true top-down views compared as a set. Synthetic fixture only."
+      }
+    },
+    {
+      "id": "studio-03-top-down",
+      "kind": "cutout",
+      "format": "white-background-studio-master",
+      "path": "final/studio-03-top-down.png",
+      "sha256": "b6d390c5e30b179b5276acd037ec7a6d42eae3b3aa154187580a79383f5d6510",
+      "angle": "top-down",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "status": "pass",
+      "source_ids": [
+        "src-tray"
+      ],
+      "source_hashes": {
+        "src-tray": "04c980f39f34c541283b88882027dc780484aa4fa8fcab8b38eedd1a1c4d9811"
+      },
+      "variant": "slate-blue",
+      "review": {
+        "viewed": true,
+        "sha256": "b6d390c5e30b179b5276acd037ec7a6d42eae3b3aa154187580a79383f5d6510",
+        "reviewer": "main Codex",
+        "note": "Direct view: opaque white studio, slate-blue rounded tray with 3 compartments, soft neutral lighting/contact shadow. Distinct front, three-quarter and true top-down views compared as a set. Synthetic fixture only."
+      }
+    }
+  ],
+  "quality": {
+    "direct_visual_review": true,
+    "technical_validator": "validate_studio_shots.py"
+  },
+  "attempts_total": 5,
+  "rejected": [
+    {
+      "path": "studio-03-left-three-quarter.png",
+      "reason": "Near-duplicate three-quarter view; not counted as a distinct angle."
+    },
+    {
+      "path": "studio-04-top-three-quarter.png",
+      "reason": "Near-duplicate three-quarter view; not counted as a distinct angle."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+test_approved_pass_asset_is_eligible (test_package_validation.PackageGateTests.test_approved_pass_asset_is_eligible) ... ok
+test_full_ranges_are_enforced_and_satisfied (test_package_validation.PackageGateTests.test_full_ranges_are_enforced_and_satisfied) ... ok
+test_lite_cutout_upper_bound_is_two (test_package_validation.PackageGateTests.test_lite_cutout_upper_bound_is_two) ... ok
+test_proposed_plan_and_failed_asset_are_blocked (test_package_validation.PackageGateTests.test_proposed_plan_and_failed_asset_are_blocked) ... ok
+test_same_asset_file_cannot_fill_two_slots (test_package_validation.PackageGateTests.test_same_asset_file_cannot_fill_two_slots) ... ok
+test_unknown_tier_is_blocked (test_package_validation.PackageGateTests.test_unknown_tier_is_blocked) ... ok
+test_changed_and_missing_files (test_product_context.HandoffTests.test_changed_and_missing_files) ... ok
+test_failure_boundaries (test_product_context.HandoffTests.test_failure_boundaries) ... ok
+test_proposed_plan_can_record_unfinished_asset (test_product_context.HandoffTests.test_proposed_plan_can_record_unfinished_asset) ... ok
+test_valid (test_product_context.HandoffTests.test_valid) ... ok
+test_non_white_background_is_rejected (test_studio_shots.StudioShotValidationTests.test_non_white_background_is_rejected) ... ok
+test_opaque_white_studio_shot_passes (test_studio_shots.StudioShotValidationTests.test_opaque_white_studio_shot_passes) ... ok
+test_transparent_cutout_is_rejected (test_studio_shots.StudioShotValidationTests.test_transparent_cutout_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.628s
+
+OK
+PASS: studio images are opaque, high-resolution and white-background compatible; visual identity still requires direct review
+PASS: record, files, hashes and handoff references; visual quality requires human/agent inspection

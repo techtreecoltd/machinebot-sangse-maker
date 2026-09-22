@@ -352,6 +352,69 @@
       "sha256": "c4d503784c24bfcc60ca346bd1c7ba0600dc2ea7c6e379b0a6da93244cc944a3",
       "stage": "critic",
       "recorded_at": "2026-09-21T00:28:01.925Z"
+    },
+    {
+      "id": "ev-040",
+      "kind": "plan",
+      "result": "pass",
+      "path": ".machine-code/plan.md",
+      "sha256": "d8c3d24aa9ef0d92b6a59252050a0c38e217feeb46e60863c9e892eb82df2057",
+      "stage": "execute",
+      "recorded_at": "2026-09-22T01:04:35.981Z"
+    },
+    {
+      "id": "ev-041",
+      "kind": "s9-implementation",
+      "result": "pass",
+      "path": "validation/release-1.17.1-validation.md",
+      "sha256": "2702b7addaf1edd1c015876e44f91a07391384a4b259ccc8a85b97489074676e",
+      "stage": "execute",
+      "recorded_at": "2026-09-22T01:04:35.981Z"
+    },
+    {
+      "id": "ev-042",
+      "kind": "s9-verification",
+      "result": "pass",
+      "path": "validation/s9-checks.txt",
+      "sha256": "547cc482d9bf7d8bd3a19c0dab854b8b411bb56615ea5366b21f477acbe747f0",
+      "stage": "execute",
+      "recorded_at": "2026-09-22T01:04:35.981Z"
+    },
+    {
+      "id": "ev-043",
+      "kind": "s9-package",
+      "result": "pass",
+      "path": "validation/package-1.17.1.json",
+      "sha256": "ca176076d6208caad46a19b8b9a0f308c5f775bd641b8d03b87405f2d665982e",
+      "stage": "execute",
+      "recorded_at": "2026-09-22T01:04:35.981Z"
+    },
+    {
+      "id": "ev-044",
+      "kind": "plan",
+      "result": "pass",
+      "path": ".machine-code/plan.md",
+      "sha256": "6f2d2c5b54c72ce6dd6a2e0f7e7d2148eb2e41522dbe011b0d8bc885077b0574",
+      "stage": "execute",
+      "recorded_at": "2026-09-22T01:08:26.344Z"
+    },
+    {
+      "id": "ev-045",
+      "kind": "s9-critic",
+      "result": "pass",
+      "path": "validation/critic-s9-final.md",
+      "sha256": "963a5968ad03d88e4def26f4e7842845e88a304f4275990323c6cbeb1a430c63",
+      "stage": "execute",
+      "recorded_at": "2026-09-22T01:08:26.344Z"
+    },
+    {
+      "id": "ev-046",
+      "kind": "s9-assets",
+      "result": "pass",
+      "path": "validation/studio-assets-1.17.1.json",
+      "sha256": "246d45d6e43d4e1a9fce5fa26eb8fdd3d518a535db8993f36dd90e1a9b71fa38",
+      "stage": "execute",
+      "recorded_at": "2026-09-22T01:08:26.344Z"
     }
   ]
 }
